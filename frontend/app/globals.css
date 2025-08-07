@@ -6,6 +6,7 @@
   --background: #0f243d;
   --background-secondary: #d9d9d9;
   --border-color--section: rgba(255, 255, 255, 0.5);
+  --border-highlight: rgba(0, 0, 0, 0.56);
   --color-fade1: rgba(255, 255, 255, 0.5);
   --color-fade2: rgba(255, 255, 255, 0.7);
   --color-fade3: #0f243d;
@@ -46,19 +47,19 @@ body {
 }
 
 .section--left {
-  @apply lg:w-3/12;
+  @apply w-full lg:w-3/12;
 }
 
 .section--right {
-  @apply lg:w-9/12;
+  @apply w-full lg:w-9/12;
 }
 
 .section_head--primary {
-  @apply lg:text-[1.2rem] uppercase;
+  @apply lg:text-[1.2rem] uppercase leading-[1.4rem] w-[15rem];
   color: var(--color-fade2);
 }
 .section_head--secondary {
-  @apply lg:text-[1.2rem] font-medium uppercase;
+  @apply lg:text-[1.2rem] font-medium uppercase leading-[1.4rem] w-[15rem];
   color: var(--color-fade3);
 }
 
@@ -67,13 +68,32 @@ body {
 }
 
 .image--box {
-  @apply relative bg-white rounded-[.5rem] h-[12rem] md:h-[14rem];
+  @apply relative bg-white rounded-[.5rem] h-[12rem] md:h-[14rem] hover:-translate-y-[3px] active:translate-y-0 transition-transform cursor-pointer;
 }
 
-.image--text {
-  @apply absolute top-4 left-4 text-[1.2rem] font-medium w-[10rem] leading-[1.5rem];
+.image-text--secondary {
+  @apply absolute top-4 left-4 text-[1.2rem] font-medium w-[10rem] leading-[1.4rem];
   color: var(--secondary--text);
 }
+
+.image-text--primary {
+  @apply absolute top-4 left-4 text-[1.2rem] font-semibold w-[10rem] leading-[1.4rem];
+  color: var(--text);
+}
+
 .image {
   @apply absolute bottom-0 right-2 h-[8rem] w-[8rem] lg:h-[9rem] lg:w-[9rem]  object-cover;
+}
+
+.border--highlight {
+  color: var(--border-highlight);
+}
+
+.text1--highlight-box {
+  @apply text-[1.2rem] font-semibold;
+  color: var(--secondary--text);
+}
+.text2--highlight-box {
+  @apply text-[1.2rem];
+  color: var(--secondary--text);
 }

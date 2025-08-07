@@ -8,8 +8,8 @@ const About = () => {
   return (
     <section className="section--primary" id="about">
       <div className="inner--section">
-        <div className="section--left section_head--primary">
-          About Fortune Sealings
+        <div className="section--left">
+          <div className="section_head--primary">About Fortune Sealings</div>
         </div>
         <div className="section--right ">
           <p
