@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <section>
-      <div className="pt-[1.5rem] lg:pt-[6rem] space-y-6 lg:space-y-6">
+      <div className="pt-[4.5rem] lg:pt-[6rem] space-y-6 lg:space-y-6">
         <div className="w-[95%] lg:w-[85%] mx-auto flex flex-col gap-2 lg:flex-row justify-between lg:items-end">
           <h1 className="w-full text-[1.8rem] lg:text-[3rem] font-semibold leading-[2rem] lg:leading-[3rem]">
             <span className="color--fade lg:block">We Are The</span>
@@ -12,11 +12,11 @@ const Banner = () => {
             <span className="text-white">Oil & Gas</span> field equipments
           </div>
         </div>
-        <div className="bg-[#F6F7F7] h-[25rem] lg:h-[22rem] relative -z-10">
+        <div className="bg-[#F6F7F7] h-[20rem] lg:h-[22rem] relative -z-10">
           <img
             src="/images/banner_packer.jpg"
             alt="packer image banner"
-            className=" h-full absolute left-[50%] w-[70rem] lg:w-auto -translate-x-[50%] object-cover"
+            className="h-full absolute left-[50%] top-[50%] -translate-y-[50%] w-[70rem] lg:w-auto -translate-x-[50%] object-contain"
           />
         </div>
       </div>

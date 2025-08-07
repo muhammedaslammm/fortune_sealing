@@ -6,7 +6,7 @@ const Products = () => {
           Our Products
         </div>
         <div className="section--right">
-          <div className="grid grid-cols-3 grid-rows-2 gap-6 h-[500px]">
+          <div className="relative grid grid-cols-1 grid-rows-5 sm:grid-cols-2 sm:grid-rows-3 md:grid-cols-3 md:grid-rows-2  lg:grid-cols-2 lg:grid-rows-3 xl:grid-cols-3 xl:grid-rows-2 gap-4">
             <div className="image--box">
               <div className="image--text">Packer Elements</div>
               <img
@@ -39,7 +39,7 @@ const Products = () => {
                 alt="swab cup and v pack image"
               />
             </div>
-            <div className="image--box col-span-2">
+            <div className="image--box xl:col-span-2">
               <div className="image--text !w-[15rem]">
                 Hammer Union Seals & Stuffing Box Packings
               </div>

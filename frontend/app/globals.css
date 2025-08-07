@@ -67,7 +67,7 @@ body {
 }
 
 .image--box {
-  @apply relative bg-white rounded-[.5rem];
+  @apply relative bg-white rounded-[.5rem] h-[12rem] md:h-[14rem];
 }
 
 .image--text {
@@ -75,5 +75,5 @@ body {
   color: var(--secondary--text);
 }
 .image {
-  @apply absolute w-[10rem] h-[10rem] bottom-0 right-2;
+  @apply absolute bottom-0 right-2 h-[8rem] w-[8rem] lg:h-[9rem] lg:w-[9rem]  object-cover;
 }
