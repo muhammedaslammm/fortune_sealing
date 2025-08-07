@@ -12,11 +12,18 @@ const Banner = () => {
             <span className="text-white">Oil & Gas</span> field equipments
           </div>
         </div>
-        <div className="bg-[#F6F7F7] h-[20rem] lg:h-[22rem] relative -z-10">
-          <img
+        <div className="bg-[#fafcfb] h-[18rem] lg:h-[22rem] relative -z-10">
+          {/* <img
             src="/images/banner_packer.jpg"
             alt="packer image banner"
             className="h-full absolute left-[50%] top-[50%] -translate-y-[50%] w-[70rem] lg:w-auto -translate-x-[50%] object-contain"
+          /> */}
+          <video
+            muted
+            autoPlay
+            loop
+            src="/videos/rubber_seal_video_1.mp4"
+            className="h-full absolute left-[50%] -translate-x-[50%] top-[50%] -translate-y-[50%] object-cover"
           />
         </div>
       </div>

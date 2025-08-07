@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Columns } from "phosphor-react";
+import { Rows } from "phosphor-react";
 
 const Header = () => {
   return (
@@ -17,7 +17,7 @@ const Header = () => {
           <Link href="contact">Contact</Link>
         </nav>
         <div className="lg:hidden">
-          <Columns className="w-6 h-6" />
+          <Rows className="w-6 h-6" />
         </div>
       </div>
     </header>
