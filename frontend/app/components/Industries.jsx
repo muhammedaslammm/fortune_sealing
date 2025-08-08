@@ -2,7 +2,7 @@ import industries from "@/data/industries";
 
 const Industries = () => {
   return (
-    <section className="section--primary">
+    <section className="section--primary" id="industries">
       <div className="inner--section">
         <div className="section--left ">
           <div className="section_head--primary">Industries We Serve</div>

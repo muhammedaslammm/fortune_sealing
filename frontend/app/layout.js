@@ -1,11 +1,18 @@
-import { Inter_Tight, Poppins } from "next/font/google";
+import { Inter_Tight, Poppins, Judson } from "next/font/google";
 import "./globals.css";
-import Header from "./components/Header";
+import Header from "@/components/Header.jsx";
+import Footer from "@/components/Footer.jsx";
 
 const inter_tight = Inter_Tight({
   variable: "--font-inter-tight",
   subsets: ["latin"],
   weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
+});
+
+const judson = Judson({
+  variable: "--font-judson",
+  subsets: ["latin"],
+  weight: ["400", "700"],
 });
 
 const poppins = Poppins({
@@ -22,10 +29,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`antialiased ${inter_tight.variable} ${poppins.variable}`}
+        className={`antialiased ${inter_tight.variable} ${poppins.variable} ${judson.variable}`}
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

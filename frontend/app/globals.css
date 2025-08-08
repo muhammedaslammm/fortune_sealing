@@ -6,9 +6,10 @@
   --background: #0f243d;
   --background-secondary: #d9d9d9;
   --border-color--section: rgba(255, 255, 255, 0.5);
-  --border-highlight: rgba(0, 0, 0, 0.56);
+  --border-highlight: rgba(0, 0, 0, 0.25);
   --color-fade1: rgba(255, 255, 255, 0.5);
   --color-fade2: rgba(255, 255, 255, 0.7);
+  --color-fade4: rgba(255, 255, 255, 0.8);
   --color-fade3: #0f243d;
 }
 
@@ -20,6 +21,10 @@ body {
   background: var(--background);
   color: var(--text);
   font-family: var(--font-poppins);
+}
+
+.font--judson {
+  font-family: var(--font-judson);
 }
 
 .header {
@@ -40,6 +45,12 @@ body {
 .section--secondary {
   background-color: var(--background-secondary);
   @apply py-[2rem] lg:py-[3.5rem];
+}
+
+.section--footer {
+  @apply py-[2rem] lg:py-[3.5rem] mt-[2rem] mb-[1rem] lg:mt-[3.5rem] lg:mb-[1.5rem];
+  border-top: 1px solid var(--border-color--section);
+  border-bottom: 1px solid var(--border-color--section);
 }
 
 .inner--section {
@@ -86,7 +97,7 @@ body {
 }
 
 .border--highlight {
-  color: var(--border-highlight);
+  background-color: var(--border-highlight);
 }
 
 .text1--highlight-box {
@@ -94,6 +105,36 @@ body {
   color: var(--secondary--text);
 }
 .text2--highlight-box {
-  @apply text-[1.2rem];
+  @apply text-[1.2rem] leading-[1.8rem];
   color: var(--secondary--text);
+}
+
+.mission_statement--heading {
+  @apply text-[2.5rem];
+  color: var(--text);
+  font-family: var(--font-judson);
+}
+.mission_statement--description {
+  @apply text-[2rem] max-w-[60rem] text-center leading-[2.5rem];
+  color: var(--color-fade2);
+  font-family: var(--font-judson);
+}
+
+.form--section {
+  @apply w-1/2 flex flex-col gap-4;
+}
+.form--label {
+  @apply text-[1.2rem];
+}
+.form--input {
+  @apply w-full py-2 px-4 border border-[#D3D3D3] bg-white text-[1.1rem] rounded-[.3rem];
+}
+.form--button {
+  @apply py-1.5 px-4 hover:-translate-y-[2px] active:translate-y-0 transition-transform cursor-pointer;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.footer--text {
+  @apply text-[1.1rem] text-[rgba(255,255,255,.7)];
 }

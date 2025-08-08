@@ -12,9 +12,9 @@ const Header = () => {
           <Link href="/">Home</Link>
           <Link href="#about">About Us</Link>
           <Link href="#products">Products</Link>
-          <Link href="industries">Industries</Link>
-          <Link href="highlights">Highlights</Link>
-          <Link href="contact">Contact</Link>
+          <Link href="#industries">Industries</Link>
+          <Link href="#highlights">Highlights</Link>
+          <Link href="#contact">Contact</Link>
         </nav>
         <div className="lg:hidden">
           <Rows className="w-6 h-6" />
