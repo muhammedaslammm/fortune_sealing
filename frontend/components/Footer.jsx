@@ -4,22 +4,22 @@ const Footer = () => {
   return (
     <footer className="section--footer">
       <div className="inner--section">
-        <div className="flex flex-col gap-30">
-          <div className="flex justify-between">
-            <div className="w-1/2 space-y-3">
-              <div className="font--judson text-[3.5rem] leading-none">
+        <div className="flex flex-col gap-15 lg:gap-25">
+          <div className="flex flex-col lg:flex-row justify-between gap-6">
+            <div className="lg:w-1/2 space-y-1 lg:space-y-3">
+              <div className="font--judson text-[1.6rem] lg:text-[3.5rem] leading-none">
                 Fortune Sealing
               </div>
-              <div className="footer--text !text-[1.2rem]">
+              <div className="footer--text !text-[.9rem] lg:!text-[1.2rem] text-justify">
                 Fortune Sealing Equipment's Trading LLC is a trusted provider of
                 high-performance rubber seals and precision-molded components
                 for the Oil & Gas industry.
               </div>
             </div>
-            <div className="w-1/2 flex justify-end gap-16">
-              <div className="footer--text space-y-4">
+            <div className="lg:w-1/2 flex flex-col lg:flex-row lg:justify-end gap-8 lg:gap-16">
+              <div className="footer--text flex flex-col gap-2 lg:gap-4">
                 <div className="text-white">Links</div>
-                <ul className="space-y-2">
+                <ul className="space-y-1 lg:space-y-2">
                   <li>About Us</li>
                   <li>Products</li>
                   <li>Industries</li>
@@ -27,9 +27,9 @@ const Footer = () => {
                   <li>Contact</li>
                 </ul>
               </div>
-              <div className="footer--text w-[50%] space-y-4">
+              <div className="footer--text w-[50%] space-y-2 lg:space-y-4">
                 <div className="text-white">Contact</div>
-                <ul className="space-y-2">
+                <ul className="space-y-1 lg:space-y-2">
                   <li>Sample-address St Jevel 323, Mar Streel Line 2</li>
                   <li>justsample@gmail.com</li>
                   <li>879-989-989</li>
@@ -37,20 +37,23 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-between footer--text !text-[1rem]">
-            <Link href="https://bizdatatech.com/">
+          <div className="footer--text flex flex-col gap-4">
+            <div className="flex gap-4 lg:gap-8 justify-start text-[.9rem] lg:text-[1rem]">
+              <div>Instagram</div>
+              <div>Facebook</div>
+              <div>X</div>
+              <div>LinkedIn</div>
+            </div>
+            <Link
+              href="https://bizdatatech.com/"
+              className="text-[.8rem] lg:text-[.9rem] self-end"
+            >
               &copy; {new Date().getFullYear()} Fortune Sealing | Privacy Policy
               |{" "}
               <span className="hover:underline">
                 Powered by BizdataTech Consultancy Limited, Kerala, India
               </span>
             </Link>
-            <div className="flex gap-8">
-              <div>Instagram</div>
-              <div>Facebook</div>
-              <div>X</div>
-              <div>LinkedIn</div>
-            </div>
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ const Industries = () => {
         <div className="section--left ">
           <div className="section_head--primary">Industries We Serve</div>
         </div>
-        <div className="section--right grid grid-cols-2 gap-4">
+        <div className="section--right grid sm:grid-cols-2 gap-4">
           {industries.map((industry) => (
             <div
               key={industry.id}
@@ -16,7 +16,7 @@ const Industries = () => {
               <img
                 src={industry.url}
                 alt={industry.image_attribute}
-                className="w-full h-full rounded-[.5rem]"
+                className="h-[15rem] w-full sm:h-full rounded-[.5rem] object-cover"
               />
               <div className="image-text--primary">{industry.title}</div>
             </div>

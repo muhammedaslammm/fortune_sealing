@@ -54,7 +54,7 @@ body {
 }
 
 .inner--section {
-  @apply w-[95%] lg:w-[85%] mx-auto flex flex-col gap-1 lg:flex-row lg:gap-0;
+  @apply w-[95%] lg:w-[85%] mx-auto flex flex-col gap-2 lg:flex-row lg:gap-0;
 }
 
 .section--left {
@@ -66,11 +66,11 @@ body {
 }
 
 .section_head--primary {
-  @apply lg:text-[1.2rem] uppercase leading-[1.4rem] w-[15rem];
+  @apply lg:text-[1.2rem] uppercase leading-[1.2rem] lg:leading-[1.4rem] w-[15rem];
   color: var(--color-fade2);
 }
 .section_head--secondary {
-  @apply lg:text-[1.2rem] font-medium uppercase leading-[1.4rem] w-[15rem];
+  @apply lg:text-[1.2rem] font-medium uppercase leading-[1.2rem] lg:leading-[1.4rem] w-[15rem];
   color: var(--color-fade3);
 }
 
@@ -101,40 +101,40 @@ body {
 }
 
 .text1--highlight-box {
-  @apply text-[1.2rem] font-semibold;
+  @apply lg:text-[1.2rem] font-semibold;
   color: var(--secondary--text);
 }
 .text2--highlight-box {
-  @apply text-[1.2rem] leading-[1.8rem];
+  @apply lg:text-[1.2rem] leading-[1.4rem] lg:leading-[1.8rem] w-[90%] sm:w-full;
   color: var(--secondary--text);
 }
 
 .mission_statement--heading {
-  @apply text-[2.5rem];
+  @apply text-[1.8rem] lg:text-[2.5rem];
   color: var(--text);
   font-family: var(--font-judson);
 }
 .mission_statement--description {
-  @apply text-[2rem] max-w-[60rem] text-center leading-[2.5rem];
+  @apply text-[1.3rem] lg:text-[2rem] max-w-[60rem] text-center leading-[1.6rem] lg:leading-[2.5rem];
   color: var(--color-fade2);
   font-family: var(--font-judson);
 }
 
 .form--section {
-  @apply w-1/2 flex flex-col gap-4;
+  @apply md:w-1/2 flex flex-col gap-4;
 }
 .form--label {
-  @apply text-[1.2rem];
+  @apply lg:text-[1.2rem];
 }
 .form--input {
-  @apply w-full py-2 px-4 border border-[#D3D3D3] bg-white text-[1.1rem] rounded-[.3rem];
+  @apply w-full py-2 px-3 lg:px-4 border border-[#D3D3D3] bg-white lg:text-[1.1rem] rounded-[.3rem];
 }
 .form--button {
-  @apply py-1.5 px-4 hover:-translate-y-[2px] active:translate-y-0 transition-transform cursor-pointer;
+  @apply w-full py-1.5 px-4 hover:-translate-y-[2px] active:translate-y-0 transition-transform cursor-pointer;
   background-color: var(--background);
   color: var(--text);
 }
 
 .footer--text {
-  @apply text-[1.1rem] text-[rgba(255,255,255,.7)];
+  @apply text-[.9rem] lg:text-[1.1rem] text-[rgba(255,255,255,.7)];
 }
