@@ -7,7 +7,9 @@ const Header = () => {
   return (
     <header className="header">
       <div className="w-[95%] lg:w-[85%] mx-auto flex justify-between items-center py-3 lg:py-4">
-        <div className="font-medium text-[1.1rem]">Fortune Sealing</div>
+        <div className="font-medium text-[1.1rem]">
+          <Link href="/">Fortune Sealing</Link>
+        </div>
         <nav className="hidden lg:flex gap-8">
           <Link href="/">Home</Link>
           <Link href="#about">About Us</Link>
