@@ -15,6 +15,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 14px;
 }
 
 body {
@@ -31,6 +32,22 @@ body {
   @apply fixed top-0 left-0 w-full z-1000;
   border-bottom: 1px solid var(--border-color--section);
   background-color: var(--background);
+}
+
+.circle-shift {
+  margin-left: 0.5rem; /* adjust value: 0.25rem for smaller, 0.75rem for bigger */
+}
+/* Center footer Links & Contact ONLY on mobile */
+@media (max-width: 639px) {
+  footer .lg\:w-1\/2.flex {
+    align-items: center; /* center horizontally */
+    text-align: center; /* center text inside */
+  }
+
+  footer .footer--text {
+    align-items: center;
+    text-align: center;
+  }
 }
 
 .color--fade {
@@ -133,6 +150,12 @@ body {
   @apply w-full py-1.5 px-4 hover:-translate-y-[2px] active:translate-y-0 transition-transform cursor-pointer;
   background-color: var(--background);
   color: var(--text);
+}
+
+/* individual product */
+.page--product {
+  @apply py-[2.5rem] lg:py-[5rem];
+  background-color: var(--background-secondary);
 }
 
 .footer--text {
