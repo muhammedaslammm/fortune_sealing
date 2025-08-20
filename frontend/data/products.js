@@ -6,7 +6,29 @@ export const products = [
     name: "Packer Elements",
     description:
       "Our high-performance Packer Elements are engineered for oil & gas well completion and intervention tools. Designed with advanced elastomer compounds, they provide reliable sealing under extreme downhole conditions including high pressure, temperature, and corrosive fluids.",
-    image: "/images/products/packer_element.png",
+    images: [
+      {
+        title: "SWAB CUP WITH METAL INSERT Material: - HNBR + MILD STEEL.",
+        image: "/images/packerelements/element1.png",
+      },
+      {
+        title:
+          "Bonded Sleeve Packer with Spring, Material:- HNBR 80 + Mild Steel.",
+        image: "/images/packerelements/element2.png",
+      },
+      {
+        title: "BRIDGE PLUG PACKER SETS With Metal Back Up Caps",
+        image: "/images/packerelements/element3.png",
+      },
+      {
+        title: "Packer Element Tube Bag 3 (HNBR 85)",
+        image: "/images/packerelements/element5.png",
+      },
+      {
+        title: "7 XPH Packer Element Material: - Viton-80 Duro",
+        image: "/images/packerelements/element4.png",
+      },
+    ],
     features: [
       "Resistant to high temperatures up to 200°C",
       "Superior resilience under high pressure cycles",
@@ -21,7 +43,7 @@ export const products = [
     name: "Seal Rings",
     description:
       "Our precision Seal Rings are trusted across drilling, completion, and production equipment. Manufactured with high-grade polymers and elastomers, they ensure leak-proof sealing in the most demanding environments.",
-    image: "/images/products/seal-rings.png",
+    images: [],
     features: [
       "Leak-proof performance under dynamic and static applications",
       "Available in standard and customized profiles",
@@ -36,7 +58,7 @@ export const products = [
     name: "Backup Rings & O-Rings",
     description:
       "Backup Rings and O-Rings are essential sealing components for oilfield equipment, preventing extrusion and maintaining sealing integrity in high-pressure applications. Our rings are available in a wide variety of materials and sizes to suit different service conditions.",
-    image: "/images/products/backup-o-rings.png",
+    images: [],
     features: [
       "Prevents extrusion in high-pressure environments",
       "Compatible with multiple hydraulic and drilling fluids",
@@ -51,7 +73,7 @@ export const products = [
     name: "BOP Inner & Outer Seals",
     description:
       "Our BOP Inner and Outer Seals are critical components designed to ensure safety and performance in Blowout Preventers. Engineered with advanced elastomers, these seals withstand extreme pressure and harsh drilling conditions while maintaining consistent sealing reliability.",
-    image: "/images/products/bop_inner-outer.png",
+    images: [],
     features: [
       "High-pressure sealing performance up to 15,000 PSI",
       "Designed for consistent performance in emergency situations",
@@ -66,7 +88,7 @@ export const products = [
     name: "Swab Cups & V Packings",
     description:
       "Our Swab Cups and V Packings are designed for efficient well servicing operations. Made from high-quality elastomeric compounds, they deliver superior sealing under dynamic conditions while resisting wear and tear in abrasive environments.",
-    image: "/images/products/swabcup-vpack.png",
+    images: [],
     features: [
       "Excellent sealing under reciprocating and dynamic conditions",
       "Optimized wear resistance for extended service life",
@@ -81,7 +103,7 @@ export const products = [
     name: "Hammer Union Seals & Stuffing Box Packings",
     description:
       "Hammer Union Seals and Stuffing Box Packings are engineered for rugged oilfield operations where reliability is non-negotiable. Our seals are designed to handle extreme pressures, abrasive fluids, and harsh working conditions.",
-    image: "/images/products/hammer_and_stuffing.png",
+    images: [],
     features: [
       "Handles extreme pressure cycles in high-stress applications",
       "Enhanced sealing performance for hydraulic and pneumatic systems",

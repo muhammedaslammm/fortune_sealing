@@ -157,6 +157,13 @@ body {
   @apply py-[2.5rem] lg:py-[5rem];
   background-color: var(--background-secondary);
 }
+.page--product-heading {
+  @apply text-[2.4rem] font-medium tracking-[-.05rem] w-[40rem] leading-[2.5rem];
+  color: var(--secondary--text);
+}
+.page--product-text {
+  @apply text-[1.2rem] text-black w-[100%] text-justify;
+}
 
 .footer--text {
   @apply text-[.9rem] lg:text-[1.1rem] text-[rgba(255,255,255,.7)];
