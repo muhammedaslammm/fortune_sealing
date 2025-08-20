@@ -19,22 +19,25 @@ const ProductPage = () => {
               <h1 className="page--product-heading">{product.name}</h1>
               <div className="page--product-text">{product.description}</div>
             </div>
-            <div className="w-full grid grid-cols-4 gap-4">
-              {product.images.map((image, index) => (
-                <div
-                  key={index}
-                  className="border border-[#BABABA] p-4 flex flex-col items-center justify-center gap-5 rounded-[.5rem]"
-                >
-                  <img
-                    src={image.image}
-                    alt={image.title}
-                    className="w-[12rem] h-[10rem] object-contain"
-                  />
-                  <div className="text-center leading-[1.4rem] min-w-[20rem]">
-                    {image.title}
+            <div className="space-y-2">
+              <div className="text-[1.2rem]">{`Our ${product.name} products :`}</div>
+              <div className="w-full grid grid-cols-4 gap-4">
+                {product.images.map((image, index) => (
+                  <div
+                    key={index}
+                    className="border border-[#BABABA] bg-[#dddddd] hover:bg-[#e1e1e1] transition bg- p-4 flex flex-col items-center justify-center gap-5 rounded-[.5rem]"
+                  >
+                    <img
+                      src={image.image}
+                      alt={image.title}
+                      className="w-[12rem] h-[10rem] object-contain"
+                    />
+                    <div className="text-center leading-[1.4rem] min-w-[20rem]">
+                      {image.title}
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         ) : (
