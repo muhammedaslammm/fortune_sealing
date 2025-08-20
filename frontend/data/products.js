@@ -1,4 +1,4 @@
-// app/data/productsData.js
+// app/data/products.js
 
 export const products = [
   {
