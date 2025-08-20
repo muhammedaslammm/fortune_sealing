@@ -9,7 +9,7 @@ const Highlights = () => {
             Why Choose Fortune Sealing?
           </div>
         </div>
-        <div className="section--right relative grid grid-cols-1 sm:grid-cols-2 sm:gap-8 mt-4 lg:mt-0">
+        <div className="section--right relative grid grid-cols-1 sm:grid-cols-2 sm:gap-20 mt-4 lg:mt-0">
           <div className="hidden sm:block absolute w-[.5px] top-0 bottom-0 left-1/2 border--highlight"></div>
 
           <div className="flex flex-col">

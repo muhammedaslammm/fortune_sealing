@@ -4,7 +4,7 @@
   --text: #ffffff;
   --secondary--text: #0f243d;
   --background: #0f243d;
-  --background-secondary: #d9d9d9;
+  --background-secondary: #f4f4f4;
   --border-color--section: rgba(255, 255, 255, 0.5);
   --border-highlight: rgba(0, 0, 0, 0.25);
   --color-fade1: rgba(255, 255, 255, 0.5);
@@ -96,7 +96,7 @@ body {
 }
 
 .image--box {
-  @apply relative bg-white rounded-[.5rem] h-[12rem] md:h-[14rem] hover:-translate-y-[3px] active:translate-y-0 transition-transform cursor-pointer;
+  @apply relative border border-neutral-300 bg-white rounded-[.5rem] h-[12rem] md:h-[14rem] hover:-translate-y-[3px] active:translate-y-0 transition-transform cursor-pointer;
 }
 
 .image-text--secondary {

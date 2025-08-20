@@ -3,7 +3,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 
 const Form = () => {
   return (
-    <div className="relative bg-[#F8F8F8] min-h-[550px] px-10 py-8 rounded-[.5rem]">
+    <div className="relative bg-[#ffffff] border border-neutral-300 min-h-[500px] px-10 py-8 rounded-[.5rem]">
       <div className="text-black flex flex-col md:flex-row gap-4 w-full">
         <div className="form--section">
           <div className="space-y-1">
@@ -42,16 +42,16 @@ const Form = () => {
               className="form--input"
             />
           </div>
-          <div className="self-start lg:self-end mt-4">
+          <div className="self-start lg:self-end mt-4 lg:mt-auto">
             <button className="form--button">Submit Enquiry</button>
           </div>
         </div>
       </div>
-      <img
+      {/* <img
         src="/images/form/contact_pic.png"
         alt="packer elements image"
         className="hidden lg:block absolute bottom-0 right-0 w-[22rem] h-[15rem] object-contain"
-      />
+      /> */}
     </div>
   );
 };
