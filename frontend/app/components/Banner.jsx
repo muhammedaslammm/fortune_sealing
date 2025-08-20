@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <section>
-      <div className="pt-[4.5rem] lg:pt-[6rem] space-y-6 lg:space-y-6">
+      <div className="pt-[5rem] lg:pt-[6rem] space-y-6 lg:space-y-6">
         <div className="w-[95%] lg:w-[85%] mx-auto flex flex-col gap-2 lg:flex-row justify-between lg:items-end">
           <h1 className="w-full text-[1.8rem] lg:text-[3rem] font-semibold leading-[2rem] lg:leading-[3rem]">
             <span className="color--fade lg:block">We Are The</span>

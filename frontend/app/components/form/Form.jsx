@@ -1,9 +1,6 @@
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
-
 const Form = () => {
   return (
-    <div className="relative bg-[#ffffff] border border-neutral-300 min-h-[500px] px-10 py-8 rounded-[.5rem]">
+    <div className="relative bg-[#ffffff] border border-[#b6b6b6] min-h-[500px] px-10 py-8 rounded-[.5rem]">
       <div className="text-black flex flex-col md:flex-row gap-4 w-full">
         <div className="form--section">
           <div className="space-y-1">

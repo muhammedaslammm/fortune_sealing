@@ -19,12 +19,12 @@ const Footer = () => {
             <div className="lg:w-1/2 flex flex-col lg:flex-row lg:justify-end gap-8 lg:gap-16">
               <div className="footer--text flex flex-col gap-2 lg:gap-4">
                 <div className="text-white">Links</div>
-                <ul className="space-y-1 lg:space-y-2">
-                  <li>About Us</li>
-                  <li>Products</li>
-                  <li>Industries</li>
-                  <li>Highlights</li>
-                  <li>Contact</li>
+                <ul className="flex flex-col gap-1 lg:gap-2">
+                  <Link href="/#about">About Us</Link>
+                  <Link href="/#products">Products</Link>
+                  <Link href="/#industries">Industries</Link>
+                  <Link href="/#highlights">Highlights</Link>
+                  <Link href="/#contact">Contact</Link>
                 </ul>
               </div>
               <div className="footer--text w-[50%] space-y-2 lg:space-y-4">

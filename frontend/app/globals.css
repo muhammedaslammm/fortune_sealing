@@ -96,7 +96,7 @@ body {
 }
 
 .image--box {
-  @apply relative border border-neutral-300 bg-white rounded-[.5rem] h-[12rem] md:h-[14rem] hover:-translate-y-[3px] active:translate-y-0 transition-transform cursor-pointer;
+  @apply relative border border-neutral-400/70 bg-white rounded-[.5rem] h-[12rem] md:h-[14rem] hover:-translate-y-[3px] active:translate-y-0 transition-transform cursor-pointer;
 }
 
 .image-text--secondary {
@@ -144,7 +144,7 @@ body {
   @apply lg:text-[1.2rem];
 }
 .form--input {
-  @apply w-full py-2 px-3 lg:px-4 border border-[#D3D3D3] bg-white lg:text-[1.1rem] rounded-[.3rem];
+  @apply w-full py-2 px-3 lg:px-4 border border-[#b6b6b6] bg-white lg:text-[1.1rem] rounded-[.3rem];
 }
 .form--button {
   @apply w-full py-1.5 px-4 hover:-translate-y-[2px] active:translate-y-0 transition-transform cursor-pointer;
@@ -154,11 +154,11 @@ body {
 
 /* individual product */
 .page--product {
-  @apply py-[3.5rem] lg:py-[5rem];
+  @apply py-[3.5rem] lg:py-[5.5rem];
   background-color: var(--background-secondary);
 }
 .page--product-heading {
-  @apply text-[1.3rem] md:text-[2rem] lg:text-[2.4rem] font-medium tracking-[-.05rem] w-[40rem] leading-[2.5rem];
+  @apply text-[1.3rem] md:text-[2rem] lg:text-[2.2rem] font-medium tracking-[-.05rem] w-[40rem] leading-[2.5rem];
   color: var(--secondary--text);
 }
 .page--product-text {

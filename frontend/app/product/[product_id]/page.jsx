@@ -14,7 +14,7 @@ const ProductPage = () => {
     <div className="page--product text-black">
       <div className="w-[95%] lg:w-[85%] mx-auto">
         {product ? (
-          <div className="space-y-12">
+          <div className="space-y-14">
             <div className="md:space-y-2 lg:space-y-4">
               <h1 className="page--product-heading">{product.name}</h1>
               <div className="page--product-text">{product.description}</div>
