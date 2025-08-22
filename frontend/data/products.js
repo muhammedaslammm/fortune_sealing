@@ -124,25 +124,32 @@ export const products = [
       "Our high-performance Packer Elements are engineered for oil & gas well completion and intervention tools. Designed with advanced elastomer compounds, they provide reliable sealing under extreme downhole conditions including high pressure, temperature, and corrosive fluids.",
     images: [
       {
-        title: "SWAB CUP WITH METAL INSERT Material: - HNBR + MILD STEEL.",
+        title: "7 XPH Packer Element – Viton-80 Duro",
         image: "/images/packerelements/element1.png",
       },
       {
-        title:
-          "Bonded Sleeve Packer with Spring, Material:- HNBR 80 + Mild Steel.",
+        title: "Packer Element Tube Bag 3(HNBR 85)",
         image: "/images/packerelements/element2.png",
       },
       {
-        title: "BRIDGE PLUG PACKER SETS With Metal Back Up Caps",
+        title: "Packer Element Material: -Viton 90 + SS.316 Spring Garter",
         image: "/images/packerelements/element3.png",
       },
       {
-        title: "Packer Element Tube Bag 3 (HNBR 85)",
+        title:
+          "BRIDGE PLUG PACKER SETS With Metal Back Up Caps HNBR-90 Duro (END Element) \
+         Metal Back Up Caps (Mild Steel) ",
+        image: "/images/packerelements/element4.png",
+      },
+      {
+        title: "7 Packer Elements #26-36. PPF. Material - NBR 75 duro. ",
         image: "/images/packerelements/element5.png",
       },
       {
-        title: "7 XPH Packer Element Material: - Viton-80 Duro",
-        image: "/images/packerelements/element4.png",
+        title:
+          "SEAL (Packer Element) (OD-214.32 x ID-158.68 x Ht53.97)\
+              Material: - Aflas-90 Duro",
+        image: "/images/packerelements/element6.png",
       },
     ],
     features: [
@@ -226,52 +233,30 @@ export const products = [
       "Our BOP Inner and Outer Seals are critical components designed to ensure safety and performance in Blowout Preventers. Engineered with advanced elastomers, these seals withstand extreme pressure and harsh drilling conditions while maintaining consistent sealing reliability.",
     images: [
       {
-        title: "Ball Plug Valve (Cradle Seal) Material: - NBR-90 + SS.316",
+        title: "X-Type 3 INNER SEAL (60° Slide) – Viton-80/85",
         image: "/images/seals/element1.png",
       },
       {
-        title: "Flapper Seal Material: - HNBR 90 Duro + SS.304/316.",
+        title: "3 SLICK LINE INNER SEAL – Viton + SS.304/316",
         image: "/images/seals/element2.png",
       },
       {
-        title: "DIAPHRAM SEAL with Fiber. Material: - HNBR 90 duro with Fiber",
+        title: "7 INNER SEAL – Viton-80 + Mild Steel",
         image: "/images/seals/element3.png",
       },
       {
-        title: "Flapper Seal Material: - HNBR 90 Duro + SS.304/316.",
+        title: "3 MULTI LINE INNER SEAL – HNBR + SS.304/316",
         image: "/images/seals/element4.png",
       },
-      {
-        title: "2 Half Liner Wiper Material: - Viton 70 Duro",
-        image: "/images/seals/element5.png",
-      },
-      {
-        title: 'X-Type 3" INNER SEAL (60 Degree Slide) Material: - Viton-80/85',
-        image: "/images/seals/element6.png",
-      },
-      {
-        title: '7" INNER SEAL Material: - Viton-80 + Mild Steel',
-        image: "/images/seals/element7.png",
-      },
-      {
-        title: '3" MULTI LINE INNER SEAL Material: - HNBR + SS.304/316',
-        image: "/images/seals/element8.png",
-      },
+
       {
         title: "UNISERVAL SEAL-1 Material: - HNBR-70",
-        image: "/images/seals/element9.png",
+        image: "/images/seals/element5.png",
       },
-      {
-        title: '4" MUD VALVE Material: - NBR 70 + Mild Steel',
-        image: "/images/seals/element10.png",
-      },
-      {
-        title: "HALF METAL PACK OFF Material: - Viton 80 + Mild Steel",
-        image: "/images/seals/element11.png",
-      },
+
       {
         title: "OUTER SEAL Material:- Viton-80 Duro",
-        image: "/images/seals/element12.png",
+        image: "/images/seals/element6.png",
       },
     ],
     features: [
@@ -297,6 +282,18 @@ export const products = [
         title: "SWAB CUP WITH METAL INSERT Material: - HNBR + MILD STEEL.",
         image: "/images/swacups/element2.png",
       },
+      {
+        title: "1 Vee Packing Seal – Material: NBR + Fiber",
+        image: "/images/swacups/element3.png",
+      },
+      {
+        title: "1 Molly Seal (Vee Seal) – Material: 15% Molly Filled PTFE",
+        image: "/images/swacups/element4.png",
+      },
+      {
+        title: "1 Vee Packing – Material: Viton + Kevlar",
+        image: "/images/swacups/element5.png",
+      },
     ],
     features: [
       "Excellent sealing under reciprocating and dynamic conditions",
@@ -314,11 +311,6 @@ export const products = [
       "Hammer Union Seals and Stuffing Box Packings are engineered for rugged oilfield operations where reliability is non-negotiable. Our seals are designed to handle extreme pressures, abrasive fluids, and harsh working conditions.",
     images: [
       {
-        title:
-          "PLUG Assy with Both Side Stainless Spring. Material: - HNBR 90 + SS.316",
-        image: "/images/hammer/element1.png",
-      },
-      {
         title: "Poly Pack Seal (U-Seal With O-Ring) Material: - HNBR 90 Duro",
         image: "/images/hammer/element2.png",
       },
@@ -330,19 +322,7 @@ export const products = [
         title: "Hammer Union Seal (TEFLON) Material: - VIRGIN PTFE",
         image: "/images/hammer/element4.png",
       },
-      {
-        title: '1" Molly Seal (Vee Seal) Material: - 15% Molly Filled PTFE',
-        image: "/images/hammer/element5.png",
-      },
-      {
-        title: '1" Vee Packing Material: - Viton + Kevlar.',
-        image: "/images/hammer/element6.png",
-      },
-      {
-        title:
-          "COMPENSATION PISTON (CSP-COMPENSATION PISTON SEAL) Material: - Viton + SS.316",
-        image: "/images/hammer/element7.png",
-      },
+
       {
         title: "PTFE SCREW Material: - PTFE",
         image: "/images/hammer/element8.png",

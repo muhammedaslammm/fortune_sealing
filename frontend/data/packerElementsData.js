@@ -26,6 +26,11 @@ export const packerElements = [
     name: "Element 5",
     image: "/images/packerelements/element5.png",
   },
+  {
+    id: "element-6",
+    name: "Element 6",
+    image: "/images/packerelements/element6.png",
+  },
 ];
 // data/packerElementsData.js
 
@@ -73,6 +78,7 @@ export const seals = [
     name: "Element 4",
     image: "/images/seals/element4.png",
   },
+
   {
     id: "element-5",
     name: "Element 5",
@@ -82,41 +88,6 @@ export const seals = [
     id: "element-6",
     name: "Element 6",
     image: "/images/seals/element6.png",
-  },
-  {
-    id: "element-7",
-    name: "Element 7",
-    image: "/images/seals/element7.png",
-  },
-  {
-    id: "element-8",
-    name: "Element 8",
-    image: "/images/seals/element8.png",
-  },
-  {
-    id: "element-8",
-    name: "Element 8",
-    image: "/images/seals/element8.png",
-  },
-  {
-    id: "element-9",
-    name: "Element 9",
-    image: "/images/seals/element9.png",
-  },
-  {
-    id: "element-10",
-    name: "Element 10",
-    image: "/images/seals/element10.png",
-  },
-  {
-    id: "element-11",
-    name: "Element 11",
-    image: "/images/seals/element11.png",
-  },
-  {
-    id: "element-12",
-    name: "Element 12",
-    image: "/images/seals/element12.png",
   },
 ];
 export const swacups = [
@@ -130,13 +101,24 @@ export const swacups = [
     name: "Element 2",
     image: "/images/swacups/element2.png",
   },
+  {
+    id: "element-3",
+    name: "Element 3",
+    image: "/images/swacups/element3.png",
+  },
+  {
+    id: "element-4",
+    name: "Element 4",
+    image: "/images/swacups/element4.png",
+  },
+  {
+    id: "element-5",
+    name: "Element 5",
+    image: "/images/swacups/element5.png",
+  },
 ];
 export const hammer = [
-  {
-    id: "element-1",
-    name: "Element 1",
-    image: "/images/hammer/element1.png",
-  },
+  
   {
     id: "element-2",
     name: "Element 2",
@@ -147,16 +129,7 @@ export const hammer = [
     name: "Element 3",
     image: "/images/hammer/element3.png",
   },
-  {
-    id: "element-4",
-    name: "Element 4",
-    image: "/images/hammer/element4.png",
-  },
-  {
-    id: "element-5",
-    name: "Element 5",
-    image: "/images/hammer/element5.png",
-  },
+  
   {
     id: "element-6",
     name: "Element 6",
