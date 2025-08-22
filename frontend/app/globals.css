@@ -11,11 +11,14 @@
   --color-fade2: rgba(255, 255, 255, 0.7);
   --color-fade4: rgba(255, 255, 255, 0.8);
   --color-fade3: #0f243d;
+  color-scheme: light;
 }
 
 html {
   scroll-behavior: smooth;
   font-size: 14px;
+  color-scheme: light;
+  --webkit-color-scheme: light;
 }
 
 body {
@@ -154,11 +157,11 @@ body {
 
 /* individual product */
 .page--product {
-  @apply py-[3.5rem] lg:py-[5.5rem];
+  @apply py-[3.5rem] sm:py-[3.8rem] md:py-[4rem] lg:py-[5.5rem];
   background-color: var(--background-secondary);
 }
 .page--product-heading {
-  @apply text-[1.3rem] md:text-[2rem] lg:text-[2.2rem] font-medium tracking-[-.05rem] w-[40rem] leading-[2.5rem];
+  @apply text-[1.3rem] md:text-[1.8rem] lg:text-[2.2rem] font-medium tracking-[-.05rem] w-[40rem] leading-[2.5rem];
   color: var(--secondary--text);
 }
 .page--product-text {
