@@ -30,9 +30,13 @@ const Footer = () => {
               <div className="footer--text w-[50%] space-y-2 lg:space-y-4">
                 <div className="text-white">Contact</div>
                 <ul className="space-y-1 lg:space-y-2">
-                  <li>Sample-address St Jevel 323, Mar Streel Line 2</li>
-                  <li>justsample@gmail.com</li>
-                  <li>879-989-989</li>
+                  <li>
+                    Fortune Sealing Equipments Trading LLC, AM Facility, Office
+                    No.31,M4 Musaffah Abu Dhabi U.A.E
+                  </li>
+                  <li>sample@gmail.com</li>
+                  <li>+97126261225</li>
+                  <li>+971504255636</li>
                 </ul>
               </div>
             </div>
