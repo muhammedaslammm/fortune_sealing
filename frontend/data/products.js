@@ -99,30 +99,6 @@ export const products = [
         title: 'X-Type 3" INNER SEAL (60 Degree Slide) Material: - Viton-80/85',
         image: "/images/seals/element6.png",
       },
-      {
-        title: '7" INNER SEAL Material: - Viton-80 + Mild Steel',
-        image: "/images/seals/element7.png",
-      },
-      {
-        title: '3" MULTI LINE INNER SEAL Material: - HNBR + SS.304/316',
-        image: "/images/seals/element8.png",
-      },
-      {
-        title: "UNISERVAL SEAL-1 Material: - HNBR-70",
-        image: "/images/seals/element9.png",
-      },
-      {
-        title: '4" MUD VALVE Material: - NBR 70 + Mild Steel',
-        image: "/images/seals/element10.png",
-      },
-      {
-        title: "HALF METAL PACK OFF Material: - Viton 80 + Mild Steel",
-        image: "/images/seals/element11.png",
-      },
-      {
-        title: "OUTER SEAL Material:- Viton-80 Duro",
-        image: "/images/seals/element12.png",
-      },
     ],
     features: [
       "High-pressure sealing performance up to 15,000 PSI",
