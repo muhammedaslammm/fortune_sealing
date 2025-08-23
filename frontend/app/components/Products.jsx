@@ -56,7 +56,7 @@ const Products = () => {
                   Swab Cups & V Packings
                 </div>
                 <img
-                  className="image"
+                  className="image "
                   src="/images/products/swabcup-vpack.png"
                   alt="swab cup and v pack image"
                 />
@@ -70,7 +70,7 @@ const Products = () => {
                   Hammer Union Seals & Stuffing Box Packings
                 </div>
                 <img
-                  className="image"
+                  className="image "
                   src="/images/products/hammer_and_stuffing.png"
                   alt="hammer and stuffing image"
                 />
