@@ -114,7 +114,7 @@ body {
 }
 
 .image {
-  @apply absolute bottom-0 right-2 h-[8rem] w-[8rem] lg:h-[9rem] lg:w-[9rem]  object-cover;
+  @apply absolute bottom-0 right-2 h-[8rem] w-[8rem] lg:h-[6rem] lg:w-[6rem]  object-cover;
 }
 
 .border--highlight {
