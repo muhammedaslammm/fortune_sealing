@@ -8,10 +8,10 @@ const Industries = () => {
         <div className="section--left ">
           <div className="section_head--primary">Industries We Serve</div>
         </div>
-        <div className="section--right grid sm:grid-cols-2 gap-4">
+        <div className="section--right flex overflow-x-auto whitespace-nowrap scroll-smooth gap-4">
           {industries.map((industry) => (
             <div
-              className="relative hover:-translate-y-[3px] active:translate-y-0 transition-transform cursor-pointer"
+              className="relative flex-none hover:-translate-y-[3px] active:translate-y-0 transition-transform cursor-pointer w-[40rem]"
               key={industry.id}
             >
               <img

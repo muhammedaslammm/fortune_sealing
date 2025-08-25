@@ -41,23 +41,20 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="footer--text flex flex-col gap-4">
+          <div className="footer--text flex flex-col lg:flex-row lg:justify-between gap-4">
             <div className="flex gap-4 lg:gap-8 justify-start text-[.9rem] lg:text-[1rem]">
               <div>Instagram</div>
               <div>Facebook</div>
               <div>X</div>
               <div>LinkedIn</div>
             </div>
-            <Link
-              href="https://bizdatatech.com/"
-              className="text-[.8rem] lg:text-[.9rem] self-end"
-            >
+            <div className="text-[.8rem] lg:text-[.9rem] self-end">
               &copy; {new Date().getFullYear()} Fortune Sealing | Privacy Policy
               |{" "}
-              <span className="hover:underline">
+              <Link href="https://bizdatatech.com/" className="hover:underline">
                 Powered by BizdataTech Consultancy Limited, Kerala, India
-              </span>
-            </Link>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

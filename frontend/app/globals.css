@@ -74,23 +74,24 @@ body {
 }
 
 .inner--section {
-  @apply w-[95%] lg:w-[85%] mx-auto flex flex-col gap-2 lg:flex-row lg:gap-0;
+  @apply w-[95%] lg:w-[85%] mx-auto flex flex-col gap-2 lg:flex-col lg:gap-5;
 }
 
 .section--left {
-  @apply w-full lg:w-3/12;
+  @apply w-full lg:w-full;
 }
 
 .section--right {
-  @apply w-full lg:w-9/12;
+  @apply w-full lg:w-full;
+  scrollbar-width: none;
 }
 
 .section_head--primary {
-  @apply lg:text-[1.2rem] uppercase leading-[1.2rem] lg:leading-[1.4rem] w-[15rem];
+  @apply lg:text-[1.6rem] normal-case leading-[1.2rem] lg:leading-[1.4rem] w-full;
   color: var(--color-fade2);
 }
 .section_head--secondary {
-  @apply lg:text-[1.2rem] font-medium uppercase leading-[1.2rem] lg:leading-[1.4rem] w-[15rem];
+  @apply lg:text-[1.6rem] font-medium normal-case leading-[1.2rem] lg:leading-[1.4rem] w-full;
   color: var(--color-fade3);
 }
 

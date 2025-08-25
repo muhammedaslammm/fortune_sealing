@@ -12,7 +12,7 @@ const About = () => {
         <div className="section--left">
           <div className="section_head--primary">About Fortune Sealings</div>
         </div>
-        <div className="section--right ">
+        <div className="section--right">
           <p
             className={`section_paragraph lg:text-justify ${
               isExpanded ? "line-clamp-none" : "line-clamp-3"

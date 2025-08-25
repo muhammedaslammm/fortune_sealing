@@ -39,8 +39,8 @@ const ProductPage = () => {
                   </Link>
                 ))}
               </div>
-              <div className="border border-neutral-300"></div>
-              <div className="relative sm:w-1/2 -mt-3 flex items-center gap-4">
+              <div className="border border-neutral-300 md:hidden"></div>
+              <div className="relative sm:w-1/2 -mt-3 flex items-center gap-4 md:hidden">
                 <div className="text-[1.1rem]">Products:</div>
                 <div
                   className="form--input flex justify-between items-center cursor-pointer"
