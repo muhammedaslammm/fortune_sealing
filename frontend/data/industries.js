@@ -27,6 +27,18 @@ const industries = [
     url: "/images/industries/processing.png",
     description: `In processing industries such as food, chemical, and pharmaceutical manufacturing, safety and hygiene are paramount. Our sealing systems are designed with these stringent requirements in mind, providing safe and long-lasting solutions that meet or exceed industry standards. In the food and beverage sector, we offer seals made from FDA-approved materials that prevent contamination and are easy to clean. For chemical processing, our seals are engineered to resist a wide range of aggressive chemicals, ensuring the containment of hazardous materials and the safety of personnel. In the pharmaceutical industry, our products are manufactured in cleanroom environments to prevent particle contamination and maintain sterile conditions. We also provide custom solutions for specific processing needs, ensuring that our seals integrate seamlessly with existing machinery and production lines. Our commitment to quality and safety makes us a trusted partner for companies that demand the highest standards in their manufacturing processes.`,
   },
+  {
+    id: 5,
+    title: "Geothermal Energy",
+    image_attribute: "Geothermal Energy Image",
+    url: "/images/industries/geothermal.jpg",
+  },
+  {
+    id: 6,
+    title: "Water Treatment & Ground Water System",
+    image_attribute: "Water Treatment & Ground Water System Image",
+    url: "/images/industries/watertreatment.jpg",
+  },
 ];
 
 export default industries;

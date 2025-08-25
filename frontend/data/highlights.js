@@ -1,3 +1,5 @@
+import { GasPump } from "phosphor-react";
+
 const highlights = [
   {
     id: 1,

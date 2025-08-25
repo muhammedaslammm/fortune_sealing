@@ -5,6 +5,7 @@
   --secondary--text: #0f243d;
   --background: #0f243d;
   --background-secondary: #f4f4f4;
+  --card-border: rgba(15, 36, 61, 0.6);
   --border-color--section: rgba(255, 255, 255, 0.5);
   --border-highlight: rgba(0, 0, 0, 0.25);
   --color-fade1: rgba(255, 255, 255, 0.5);
@@ -87,11 +88,11 @@ body {
 }
 
 .section_head--primary {
-  @apply lg:text-[1.6rem] normal-case leading-[1.2rem] lg:leading-[1.4rem] w-full;
+  @apply lg:text-[1.4rem] normal-case leading-[1.2rem] lg:leading-[1.4rem] w-full;
   color: var(--color-fade2);
 }
 .section_head--secondary {
-  @apply lg:text-[1.6rem] font-medium normal-case leading-[1.2rem] lg:leading-[1.4rem] w-full;
+  @apply lg:text-[1.4rem] font-medium normal-case leading-[1.2rem] lg:leading-[1.4rem] w-full;
   color: var(--color-fade3);
 }
 
@@ -100,7 +101,8 @@ body {
 }
 
 .image--box {
-  @apply relative border border-neutral-400/70 bg-white rounded-[.5rem] h-[12rem] md:h-[14rem] hover:-translate-y-[3px] active:translate-y-0 transition-transform cursor-pointer;
+  @apply relative bg-white rounded-[.5rem] h-[12rem] md:h-[15rem];
+  border: 1px solid var(--card-border);
 }
 
 .image-text--secondary {
@@ -114,11 +116,16 @@ body {
 }
 
 .image {
-  @apply absolute bottom-0 right-2 h-[8rem] w-[8rem] lg:h-[6rem] lg:w-[6rem]  object-cover;
+  @apply absolute bottom-[2rem] right-[1rem] h-[8rem] w-[8rem] lg:h-[7rem] lg:w-[7rem] object-cover;
 }
 
 .border--highlight {
   background-color: var(--border-highlight);
+}
+
+.highlight--card {
+  border: 1px solid var(--card-border);
+  @apply flex flex-col sm:flex-row gap-2 sm:gap-4 py-8 px-2 rounded-[.5rem] bg-white md:h-[17rem];
 }
 
 .text1--highlight-box {
@@ -126,7 +133,7 @@ body {
   color: var(--secondary--text);
 }
 .text2--highlight-box {
-  @apply lg:text-[1.2rem] leading-[1.4rem] lg:leading-[1.8rem] w-[90%] sm:w-full;
+  @apply lg:text-[1.2rem] leading-[1.4rem] lg:leading-[1.8rem] w-[90%] sm:w-[90%];
   color: var(--secondary--text);
 }
 
