@@ -2,7 +2,7 @@
 
 :root {
   --text: #ffffff;
-  --secondary--text: #0f243d;
+  --secondary--text: rgb(15, 36, 61);
   --background: #0f243d;
   --background-secondary: #f4f4f4;
   --card-border: rgba(15, 36, 61, 0.6);
@@ -64,8 +64,8 @@ body {
   border-bottom: 1px solid var(--border-color--section);
 }
 .section--secondary {
-  background-color: var(--background-secondary);
   @apply py-[2rem] lg:py-[3.5rem];
+  background-color: var(--background-secondary);
 }
 
 .section--footer {
@@ -125,7 +125,7 @@ body {
 
 .highlight--card {
   border: 1px solid var(--card-border);
-  @apply flex flex-col sm:flex-row gap-2 sm:gap-4 py-8 px-2 rounded-[.5rem] bg-white md:h-[17rem];
+  @apply flex flex-col sm:flex-row gap-2 sm:gap-6 py-8 px-4 rounded-[.5rem] bg-white md:h-[17rem];
 }
 
 .text1--highlight-box {
@@ -178,4 +178,46 @@ body {
 
 .footer--text {
   @apply text-[.9rem] lg:text-[1.1rem] text-[rgba(255,255,255,.7)];
+}
+
+.pattern--image-box {
+  --s: 84px; /* control the size*/
+  --c1: #f2f2f2;
+  --c2: #d9d9d9;
+  --c3: #b2bdcd;
+
+  --_g: 0 120deg, #0000 0;
+  background: conic-gradient(
+      at calc(250% / 3) calc(100% / 3),
+      var(--c3) var(--_g)
+    ),
+    conic-gradient(
+      from -120deg at calc(50% / 3) calc(100% / 3),
+      var(--c2) var(--_g)
+    ),
+    conic-gradient(
+      from 120deg at calc(100% / 3) calc(250% / 3),
+      var(--c1) var(--_g)
+    ),
+    conic-gradient(
+      from 120deg at calc(200% / 3) calc(250% / 3),
+      var(--c1) var(--_g)
+    ),
+    conic-gradient(
+      from -180deg at calc(100% / 3) 50%,
+      var(--c2) 60deg,
+      var(--c1) var(--_g)
+    ),
+    conic-gradient(
+      from 60deg at calc(200% / 3) 50%,
+      var(--c1) 60deg,
+      var(--c3) var(--_g)
+    ),
+    conic-gradient(
+      from -60deg at 50% calc(100% / 3),
+      var(--c1) 120deg,
+      var(--c2) 0 240deg,
+      var(--c3) 0
+    );
+  background-size: calc(var(--s) * sqrt(3)) var(--s);
 }
