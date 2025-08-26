@@ -12,7 +12,19 @@ const Banner = () => {
             <span className="text-white">Oil & Gas</span> field equipments
           </div>
         </div>
-        <div className="bg-[#fafcfb] h-[18rem] lg:h-[22rem] relative -z-10">
+        <div className="bg-[#fafcfb] h-[18rem] lg:h-[22rem] relative">
+          <div className="absolute z-10 text-black">
+            <div className="banner--head text-[2.5rem] font-medium -tracking-[.2rem]">
+              Why choose our seals?
+            </div>
+            <ul className="banner--description">
+              <li>Extreme durability under high pressure</li>
+              <li>Resistant to oil, gas, and harsh chemicals</li>
+              <li>Precision-engineered for zero leakage</li>
+              <li>Precision-engineered for zero leakage</li>
+            </ul>
+          </div>
+          <div></div>
           <video
             muted
             autoPlay
