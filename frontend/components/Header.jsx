@@ -1,12 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { Rows } from "phosphor-react";
+import { Rows, File } from "phosphor-react";
 
 const Header = () => {
   return (
     <header className="header">
-      <div className="w-[95%] lg:w-[85%] mx-auto flex justify-between items-center py-3 lg:py-2.5">
+      <div className="w-[95%] lg:w-[85%] mx-auto flex justify-between items-center py-3 lg:py-0">
         <div className="font-medium text-[1.1rem]">
           <Link href="/">
             <img
@@ -16,7 +16,7 @@ const Header = () => {
             />
           </Link>
         </div>
-        <nav className="hidden lg:flex gap-8">
+        <nav className="hidden lg:flex gap-6">
           <Link href="/">Home</Link>
           <Link href="/#about">About Us</Link>
           <Link href="/#products">Products</Link>
@@ -24,6 +24,12 @@ const Header = () => {
           <Link href="/#highlights">Highlights</Link>
           <Link href="/#contact">Contact</Link>
         </nav>
+        <Link
+          href="/products"
+          className="hidden lg:flex items-center gap-1 bg-[#324b6b] hover:bg-[#395b83] transition  py-4 px-2"
+        >
+          View Brochure <File weight="bold" className="w-5 h-5" />
+        </Link>
         <div className="lg:hidden">
           <Rows className="w-6 h-6" />
         </div>

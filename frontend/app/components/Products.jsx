@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { CaretLeft } from "phosphor-react";
 
 const Products = () => {
   return (
@@ -7,12 +6,6 @@ const Products = () => {
       <div className="inner--section">
         <div className="section--left flex justify-between items-center">
           <div className="section_head--secondary">Our Products</div>
-          <Link
-            href="/products"
-            className="text-white bg-black py-1 px-2 rounded-[.2rem] text-[]"
-          >
-            View all products
-          </Link>
         </div>
 
         {/* Products grid */}

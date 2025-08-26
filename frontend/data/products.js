@@ -123,6 +123,7 @@ export const products = [
         title: "SWAB CUP WITH METAL INSERT Material: - HNBR + MILD STEEL.",
         image: "/images/swacups/element2.png",
       },
+      
     ],
     features: [
       "Excellent sealing under reciprocating and dynamic conditions",

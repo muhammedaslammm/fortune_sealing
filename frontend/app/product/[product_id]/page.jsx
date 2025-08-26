@@ -29,10 +29,10 @@ const ProductPage = () => {
                   <Link
                     key={product.id}
                     href={`/product/${product.id}`}
-                    className={`text-[1.1rem] px-4 py-2  transition ${
+                    className={`text-[1.1rem] px-4 py-2 border border-neutral-300 transition ${
                       currentProduct === product.id
                         ? "bg-[#0f243d] text-white"
-                        : "hover:bg-neutral-300"
+                        : "bg-neutral-100 hover:bg-neutral-200"
                     }`}
                   >
                     {product.name}

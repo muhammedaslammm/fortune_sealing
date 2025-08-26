@@ -8,7 +8,7 @@ import Products from "./components/Products";
 
 export default function Home() {
   return (
-    <main>
+    <main className="relative">
       <Banner />
       <About />
       <Products />

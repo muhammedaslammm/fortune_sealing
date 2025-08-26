@@ -2,7 +2,8 @@
 
 :root {
   --text: #ffffff;
-  --secondary--text: rgb(15, 36, 61);
+  --secondary--text: #0f243d;
+  --secondary--text-fade: rgb(15, 36, 61, 0.6);
   --background: #0f243d;
   --background-secondary: #f4f4f4;
   --card-border: rgba(15, 36, 61, 0.6);
@@ -17,7 +18,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 50px;
+  scroll-padding-top: 70px;
   font-size: 14px;
   color-scheme: light;
   --webkit-color-scheme: light;
@@ -75,6 +76,13 @@ body {
   border-bottom: 1px solid var(--border-color--section);
 }
 
+.banner--head {
+  color: var(--secondary--text);
+}
+.banner--description {
+  color: var(--secondary--text-fade);
+}
+
 .inner--section {
   @apply w-[95%] lg:w-[85%] mx-auto flex flex-col gap-2 lg:flex-col lg:gap-5;
 }
@@ -117,7 +125,7 @@ body {
 }
 
 .image {
-  @apply absolute bottom-[2rem] right-[1rem] h-[8rem] w-[8rem] lg:h-[7rem] lg:w-[7rem] object-cover;
+  @apply absolute bottom-[1rem] right-[.5rem] h-[8rem] w-[8rem] lg:h-[9rem] lg:w-[9rem] object-contain;
 }
 
 .border--highlight {
