@@ -8,7 +8,7 @@ const Products = () => {
         <div className="section--left flex justify-between items-center">
           <div className="section_head--secondary">Our Products</div>
           <Link
-            href="/"
+            href="/products"
             className="text-white bg-black py-1 px-2 rounded-[.2rem] text-[]"
           >
             View all products
