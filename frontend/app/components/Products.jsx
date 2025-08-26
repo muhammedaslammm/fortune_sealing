@@ -4,9 +4,17 @@ const Products = () => {
   return (
     <section className="section--secondary" id="products">
       <div className="inner--section">
-        <div className="section--left">
+        <div className="section--left flex justify-between items-center">
           <div className="section_head--secondary">Our Products</div>
+          <Link
+            href="/products"
+            className="text-white bg-black py-1 px-2 rounded-[.2rem] text-[]"
+          >
+            View all products
+          </Link>
         </div>
+
+        {/* Products grid */}
         <div className="section--right grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 lg:mt-0">
           {/* Packer Elements */}
           <Link href="/product/packer-elements" className="flex-none">
