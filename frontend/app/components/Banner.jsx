@@ -13,11 +13,6 @@ const Banner = () => {
           </div>
         </div>
         <div className="bg-[#fafcfb] h-[18rem] lg:h-[22rem] relative -z-10">
-          {/* <img
-            src="/images/banner/banner_packer.jpg"
-            alt="packer image banner"
-            className="h-full absolute left-[50%] top-[50%] -translate-y-[50%] w-[70rem] lg:w-auto -translate-x-[50%] object-contain"
-          /> */}
           <video
             muted
             autoPlay
