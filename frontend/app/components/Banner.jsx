@@ -1,3 +1,10 @@
+"use client";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/autoplay";
+import "swiper/css/navigation";
+
 const Banner = () => {
   return (
     <section>
@@ -13,10 +20,35 @@ const Banner = () => {
           </div>
         </div>
         <div className="bg-[#fafcfb] h-[18rem] lg:h-[22rem] relative">
-          <img
-            src="/images/banner/banner_packer.jpg"
-            className="h-full absolute left-[50%] -translate-x-[50%] top-[50%] -translate-y-[50%] object-cover"
-          />
+          <Swiper
+            modules={[Autoplay]}
+            slidesPerView={1}
+            autoplay={{ delay: 3000 }}
+            loop
+            className="h-full"
+          >
+            <SwiperSlide>
+              <img
+                src="/images/banner/banner1.jpg"
+                alt="packer banner"
+                className="h-full w-full object-contain"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="/images/banner/banner2.jpg"
+                alt="o ring banner"
+                className="h-full w-full object-contain"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="/images/banner/banner3.jpg"
+                alt="ball plug valve banner"
+                className="h-full w-full object-contain"
+              />
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </section>
