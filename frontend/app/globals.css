@@ -3,6 +3,7 @@
 :root {
   --text: #ffffff;
   --secondary--text: rgb(15, 36, 61);
+  --secondary--text-fade: rgb(15, 36, 61, 0.6);
   --background: #0f243d;
   --background-secondary: #f4f4f4;
   --card-border: rgba(15, 36, 61, 0.6);
@@ -73,6 +74,13 @@ body {
   @apply py-[2rem] lg:py-[3.5rem] mt-[2rem] mb-[1rem] lg:mt-[3.5rem] lg:mb-[1.5rem];
   border-top: 1px solid var(--border-color--section);
   border-bottom: 1px solid var(--border-color--section);
+}
+
+.banner--head {
+  color: var(--secondary--text);
+}
+.banner--description {
+  color: var(--secondary--text-fade);
 }
 
 .inner--section {

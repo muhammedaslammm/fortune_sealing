@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { CaretLeft } from "phosphor-react";
 
 const Products = () => {
   return (
