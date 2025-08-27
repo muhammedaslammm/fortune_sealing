@@ -27,9 +27,29 @@ export const packerElements = [
     image: "/images/packerelements/element5.png",
   },
   {
-    id: "element-6",
-    name: "Element 6",
-    image: "/images/packerelements/element6.png",
+    id: "element-7",
+    name: "Element 7",
+    image: "/images/packerelements/element7.png",
+  },
+  {
+    id: "element-8",
+    name: "Element 8",
+    image: "/images/packerelements/element8.png",
+  },
+  {
+    id: "element-9",
+    name: "Element 9",
+    image: "/images/packerelements/element9.png",
+  },
+  {
+    id: "element-10",
+    name: "Element 10",
+    image: "/images/packerelements/element10.png",
+  },
+  {
+    id: "element-11",
+    name: "Element 11",
+    image: "/images/packerelements/element11.png",
   },
 ];
 // data/packerElementsData.js
@@ -54,6 +74,51 @@ export const Rings = [
     id: "element-4",
     name: "Element 4",
     image: "/images/Rings/element4.png",
+  },
+  {
+    id: "element-5",
+    name: "Element 5",
+    image: "/images/Rings/element5.png",
+  },
+  {
+    id: "element-6",
+    name: "Element 6",
+    image: "/images/Rings/element6.png",
+  },
+  {
+    id: "element-7",
+    name: "Element 7",
+    image: "/images/Rings/element7.png",
+  },
+  {
+    id: "element-8",
+    name: "Element 8",
+    image: "/images/Rings/element8.png",
+  },
+  {
+    id: "element-9",
+    name: "Element 9",
+    image: "/images/Rings/element9.png",
+  },
+  {
+    id: "element-10",
+    name: "Element 10",
+    image: "/images/Rings/element10.png",
+  },
+  {
+    id: "element-11",
+    name: "Element 11",
+    image: "/images/Rings/element11.png",
+  },
+  {
+    id: "element-12",
+    name: "Element 12",
+    image: "/images/Rings/element12.png",
+  },
+  {
+    id: "element-13",
+    name: "Element 13",
+    image: "/images/Rings/element13.png",
   },
 ];
 
@@ -118,7 +183,6 @@ export const swacups = [
   },
 ];
 export const hammer = [
-  
   {
     id: "element-2",
     name: "Element 2",
@@ -129,7 +193,7 @@ export const hammer = [
     name: "Element 3",
     image: "/images/hammer/element3.png",
   },
-  
+
   {
     id: "element-6",
     name: "Element 6",

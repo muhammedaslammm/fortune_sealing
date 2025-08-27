@@ -7,25 +7,54 @@ export const products = [
       "Our high-performance Packer Elements are engineered for oil & gas well completion and intervention tools. Designed with advanced elastomer compounds, they provide reliable sealing under extreme downhole conditions including high pressure, temperature, and corrosive fluids.",
     images: [
       {
-        title: "SWAB CUP WITH METAL INSERT Material: - HNBR + MILD STEEL.",
+        title: "Packer Element Tube Bag 3 (HNBR 85)",
         image: "/images/packerelements/element1.png",
       },
       {
-        title:
-          "Bonded Sleeve Packer with Spring, Material:- HNBR 80 + Mild Steel.",
+        title: "7 XPH Packer Element Material: - Viton-80 Duro",
         image: "/images/packerelements/element2.png",
       },
       {
-        title: "BRIDGE PLUG PACKER SETS With Metal Back Up Caps",
+        title: "7 XPH Packer Element Material: - Viton-80 Duro",
         image: "/images/packerelements/element3.png",
-      },
-      {
-        title: "Packer Element Tube Bag 3 (HNBR 85)",
-        image: "/images/packerelements/element5.png",
       },
       {
         title: "7 XPH Packer Element Material: - Viton-80 Duro",
         image: "/images/packerelements/element4.png",
+      },
+      {
+        title: "HALF METAL PACK OFF Material: - Viton 80 + Mild Steel.",
+        image: "/images/packerelements/element5.png",
+      },
+      {
+        title:
+          "PLUG Assy with Both Side Stainless Spring. Material: -HNBR 90 + SS.316",
+        image: "/images/packerelements/element6.png",
+      },
+      {
+        title: "Packer Element Material: -Viton 90 + SS.316 Spring Garter",
+        image: "/images/packerelements/element7.png",
+      },
+      {
+        title:
+          "BRIDGE PLUG PACKER SETS With Metal Back Up Caps \
+                         HNBR-90 Duro (END Element)\
+                       HNBR-70 Duro (CENTER Element)\
+                       Metal Back Up Caps (Mild Steel)",
+        image: "/images/packerelements/element8.png",
+      },
+      {
+        title: "4.38 Center packing Element.Material - NBR 70",
+        image: "/images/packerelements/element9.png",
+      },
+      {
+        title: "7 Packer Elements #26-36. PPF.Material - NBR 75 duro.",
+        image: "/images/packerelements/element10.png",
+      },
+      {
+        title:
+          "SEAL (Packer Element) (OD-214.32 x ID-158.68 x Ht-53.97)Material: - Aflas-90 Duro.",
+        image: "/images/packerelements/element11.png",
       },
     ],
     features: [
@@ -49,17 +78,54 @@ export const products = [
         image: "/images/Rings/element1.png",
       },
       {
-        title: "VICTAULIC SASKET TYPE T-2 MATERIAL:- NBR-70 DURO",
+        title: "1 Spacer Material:- PTFE.",
         image: "/images/Rings/element2.png",
       },
       {
-        title: "POLYPACK SEAL (U-SEAL WITH O-RING MATERIAL:- HNBR 90 DURO)",
+        title: "VICTAULIC GASKET TYPE T-2 Material:- NBR-70 Duro,",
         image: "/images/Rings/element3.png",
       },
       {
-        title:
-          "U-PACKING SEAL WITH SPRING MATERIAL:-HNBR-85 WITH CANTILEVER SPRING",
+        title: "Bonded Seal, Material: - HNBR 80 + SS.304/316.",
         image: "/images/Rings/element4.png",
+      },
+      {
+        title: "Bonded  Seal (HNBR 90)",
+        image: "/images/Rings/element5.png",
+      },
+      {
+        title:
+          "Bonded Seal Material: - HNBR-85 + SS.304 (Mild Steel)We have Different Sizes available Like- 4, 4.5, 5,5.5,7.0,9 5/8 etc.",
+        image: "/images/Rings/element6.png",
+      },
+      {
+        title: "4 Ball Plug Valve (Cradle Seal) Material: - NBR-90 + Ss.316",
+        image: "/images/Rings/element7.png",
+      },
+
+      {
+        title: "Flapper Seal Material: - HNBR 90 Duro + SS.304/316.",
+        image: "/images/Rings/element8.png",
+      },
+      {
+        title: "PTFE SCREW  Material: - PTFE.",
+        image: "/images/Rings/element9.png",
+      },
+      {
+        title: "PTFE SCREW  Material: - PTFE.",
+        image: "/images/Rings/element10.png",
+      },
+      {
+        title: "ADV Seal Ring (020174)Material - Viton 90 duro.",
+        image: "/images/Rings/element11.png",
+      },
+      {
+        title: "ADV Seal Ring (020174)Material - Viton 90 duro.",
+        image: "/images/Rings/element12.png",
+      },
+      {
+        title: " Bonded seal for 4.75 DRN Redress Kit.",
+        image: "/images/Rings/element13.png",
       },
     ],
     features: [
