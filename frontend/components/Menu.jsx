@@ -30,7 +30,7 @@ const Menu = () => {
             <Link
               key={i}
               href={n.path}
-              className="py-2 border-b border-neutral-300/50 last:border-0 "
+              className="py-2.5 text-[1.1rem] border-b border-neutral-300/50 last:border-0 "
               onClick={() => setMenuStat(false)}
             >
               {n.title}
