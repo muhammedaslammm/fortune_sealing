@@ -1,7 +1,7 @@
 @import "tailwindcss";
 :root {
   --text: #ffffff;
-  --secondary--text: #0f243d;
+  --secondary--text: hsl(213, 61%, 15%);
   --secondary--text-fade: rgb(15, 36, 61, 0.6);
   --background: #0f243d;
   --background-secondary: #f4f4f4;
@@ -189,4 +189,12 @@ body {
 
 .footer--text {
   @apply text-[.9rem] lg:text-[1.1rem] text-[rgba(255,255,255,.7)];
+}
+
+@media (prefers-color-scheme: light) {
+  html,
+  body {
+    background: var(--background-secondary) !important;
+    color: var(--secondary--text) !important;
+  }
 }

@@ -30,6 +30,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="color-scheme" content="light" />
+        <meta name="supported-color-schemes" content="light" />
+      </head>
       <body
         className={`antialiased ${inter_tight.variable} ${poppins.variable} ${judson.variable}`}
       >
