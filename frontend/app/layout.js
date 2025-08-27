@@ -2,6 +2,8 @@ import { Inter_Tight, Poppins, Judson } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header.jsx";
 import Footer from "@/components/Footer.jsx";
+import { AppProvider } from "@/context/AppContext";
+import Menu from "@/components/Menu";
 
 const inter_tight = Inter_Tight({
   variable: "--font-inter-tight",
@@ -31,9 +33,12 @@ export default function RootLayout({ children }) {
       <body
         className={`antialiased ${inter_tight.variable} ${poppins.variable} ${judson.variable}`}
       >
-        <Header />
-        {children}
-        <Footer />
+        <AppProvider>
+          <Header />
+          {children}
+          <Footer />
+          <Menu />
+        </AppProvider>
       </body>
     </html>
   );

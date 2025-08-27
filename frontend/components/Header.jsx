@@ -4,9 +4,13 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Rows, File } from "phosphor-react";
 import ProductNav from "./ProductNav";
+import { useContext } from "react";
+import { AppContext } from "@/context/AppContext";
+import { navbar } from "@/data/navbar";
 
 const Header = () => {
   const path = usePathname().split("/").filter(Boolean)[0];
+  const { setMenuStat } = useContext(AppContext);
 
   return (
     <header className="header">
@@ -22,12 +26,11 @@ const Header = () => {
         </div>
         <div className="flex items-center gap-6">
           <nav className="hidden lg:flex gap-6">
-            <Link href="/">Home</Link>
-            <Link href="/#about">About Us</Link>
-            <Link href="/#products">Products</Link>
-            <Link href="/#industries">Industries</Link>
-            <Link href="/#highlights">Highlights</Link>
-            <Link href="/#contact">Contact</Link>
+            {navbar.map((n, i) => (
+              <Link key={i} href={n.path}>
+                {n.title}
+              </Link>
+            ))}
           </nav>
           <Link
             href="/products"
@@ -37,7 +40,7 @@ const Header = () => {
           </Link>
         </div>
 
-        <div className="lg:hidden">
+        <div className="lg:hidden" onClick={() => setMenuStat(true)}>
           <Rows className="w-6 h-6" />
         </div>
       </div>
