@@ -34,7 +34,7 @@ const Header = () => {
           </nav>
           <Link
             href="/products"
-            className="hidden lg:flex items-center gap-1 bg-[#2761ae] hover:bg-[#20559b] transition  py-5 px-2"
+            className="hidden lg:flex items-center gap-1 bg-[#2761ae] hover:bg-[#20559b] transition py-5 px-2"
           >
             View Brochure <File weight="bold" className="w-5 h-5" />
           </Link>

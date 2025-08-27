@@ -25,17 +25,26 @@ const Menu = () => {
         />
       </div>
       <div>
-        <nav className="flex flex-col">
-          {navbar.map((n, i) => (
-            <Link
-              key={i}
-              href={n.path}
-              className="py-2.5 text-[1.1rem] border-b border-neutral-300/50 last:border-0 "
-              onClick={() => setMenuStat(false)}
-            >
-              {n.title}
-            </Link>
-          ))}
+        <nav className="flex flex-col gap-4">
+          <Link
+            href="/products"
+            className="py-2.5 bg-[#2761ae] active:bg-[#1e5397] px-2"
+            onClick={() => setMenuStat(false)}
+          >
+            View Brochure
+          </Link>
+          <div className="flex flex-col">
+            {navbar.map((n, i) => (
+              <Link
+                key={i}
+                href={n.path}
+                className="py-2.5 text-[1.1rem] border-b border-neutral-300/50 last:border-0 "
+                onClick={() => setMenuStat(false)}
+              >
+                {n.title}
+              </Link>
+            ))}
+          </div>
         </nav>
       </div>
     </div>
