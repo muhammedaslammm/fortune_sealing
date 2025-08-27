@@ -2,6 +2,7 @@ export const products = [
   {
     id: "packer-elements",
     name: "Packer Elements",
+    path: "/product/packer-elements",
     description:
       "Our high-performance Packer Elements are engineered for oil & gas well completion and intervention tools. Designed with advanced elastomer compounds, they provide reliable sealing under extreme downhole conditions including high pressure, temperature, and corrosive fluids.",
     images: [
@@ -39,6 +40,7 @@ export const products = [
   {
     id: "backup-rings-o-rings",
     name: "Backup Rings & O-Rings",
+    path: "/product/backup-rings-o-rings",
     description:
       "Backup Rings and O-Rings are essential sealing components for oilfield equipment, preventing extrusion and maintaining sealing integrity in high-pressure applications. Our rings are available in a wide variety of materials and sizes to suit different service conditions.",
     images: [
@@ -72,6 +74,7 @@ export const products = [
   {
     id: "bop-seals",
     name: "BOP Inner & Outer Seals",
+    path: "/product/bop-seals",
     description:
       "Our BOP Inner and Outer Seals are critical components designed to ensure safety and performance in Blowout Preventers. Engineered with advanced elastomers, these seals withstand extreme pressure and harsh drilling conditions while maintaining consistent sealing reliability.",
     images: [
@@ -112,6 +115,7 @@ export const products = [
   {
     id: "swab-cups-v-packings",
     name: "Swab Cups & V Packings",
+    path: "/product/swab-cups-v-packings",
     description:
       "Our Swab Cups and V Packings are designed for efficient well servicing operations. Made from high-quality elastomeric compounds, they deliver superior sealing under dynamic conditions while resisting wear and tear in abrasive environments.",
     images: [
@@ -123,7 +127,6 @@ export const products = [
         title: "SWAB CUP WITH METAL INSERT Material: - HNBR + MILD STEEL.",
         image: "/images/swacups/element2.png",
       },
-      
     ],
     features: [
       "Excellent sealing under reciprocating and dynamic conditions",
@@ -137,6 +140,7 @@ export const products = [
   {
     id: "hammer-stuffing",
     name: "Hammer Union Seals & Stuffing Box Packings",
+    path: "/product/hammer-stuffing",
     description:
       "Hammer Union Seals and Stuffing Box Packings are engineered for rugged oilfield operations where reliability is non-negotiable. Our seals are designed to handle extreme pressures, abrasive fluids, and harsh working conditions.",
     images: [

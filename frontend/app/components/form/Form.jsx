@@ -1,6 +1,6 @@
 const Form = () => {
   return (
-    <div className="relative bg-[#ffffff] border border-[#b6b6b6] min-h-[500px] px-10 py-8 rounded-[.5rem]">
+    <div className="relative bg-[#ffffff] border border-[#b6b6b6] min-h-[500px] p-4 lg:px-10 lg:py-8 rounded-[.5rem]">
       <div className="text-black flex flex-col md:flex-row gap-4 w-full">
         <div className="form--section">
           <div className="space-y-1">
@@ -44,11 +44,6 @@ const Form = () => {
           </div>
         </div>
       </div>
-      {/* <img
-        src="/images/form/contact_pic.png"
-        alt="packer elements image"
-        className="hidden lg:block absolute bottom-0 right-0 w-[22rem] h-[15rem] object-contain"
-      /> */}
     </div>
   );
 };

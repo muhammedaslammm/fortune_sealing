@@ -1,5 +1,4 @@
 @import "tailwindcss";
-
 :root {
   --text: #ffffff;
   --secondary--text: #0f243d;
@@ -38,6 +37,9 @@ body {
   @apply fixed top-0 left-0 w-full z-1000;
   border-bottom: 1px solid var(--border-color--section);
   background-color: var(--background);
+}
+.scrollbar {
+  scrollbar-width: none;
 }
 
 .circle-shift {
@@ -174,15 +176,15 @@ body {
 
 /* individual product */
 .page--product {
-  @apply py-[3.5rem] sm:py-[3.8rem] md:py-[4rem] lg:py-[5.5rem];
+  @apply py-[6rem] sm:py-[3.8rem] md:py-[4rem] lg:py-[8rem];
   background-color: var(--background-secondary);
 }
 .page--product-heading {
-  @apply text-[1.3rem] md:text-[1.8rem] lg:text-[2.2rem] font-medium tracking-[-.05rem] w-[40rem] leading-[2.5rem];
+  @apply text-[1.1rem] md:text-[1.8rem] lg:text-[1.8rem] font-medium tracking-[-.05rem] lg:w-[40rem] leading-[2.5rem];
   color: var(--secondary--text);
 }
 .page--product-text {
-  @apply text-[1rem] leading-[1.4rem] lg:text-[1.2rem] text-black w-[100%] text-justify;
+  @apply text-[1rem] lg:text-[1.2rem] text-black leading-[1.4rem] text-justify;
 }
 
 .footer--text {
