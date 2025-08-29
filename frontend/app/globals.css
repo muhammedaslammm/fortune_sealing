@@ -190,11 +190,3 @@ body {
 .footer--text {
   @apply text-[.9rem] lg:text-[1.1rem] text-[rgba(255,255,255,.7)];
 }
-
-@media (prefers-color-scheme: light) {
-  html,
-  body {
-    background: var(--background-secondary) !important;
-    color: var(--secondary--text) !important;
-  }
-}
