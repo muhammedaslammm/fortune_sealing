@@ -1,7 +1,7 @@
 @import "tailwindcss";
 :root {
   --text: #ffffff;
-  --secondary--text: hsl(213, 61%, 15%);
+  --secondary--text: #0f243d;
   --secondary--text-fade: rgb(15, 36, 61, 0.6);
   --background: #0f243d;
   --background-secondary: #f4f4f4;
@@ -24,9 +24,9 @@ html {
 }
 
 body {
-  background: var(--background);
-  color: var(--text);
   font-family: var(--font-poppins);
+  background-color: var(--background);
+  color: var(--text);
 }
 
 .font--judson {
@@ -66,10 +66,13 @@ body {
   @apply py-[2rem] lg:py-[3.5rem] my-[2rem] lg:my-[3.5rem];
   border-top: 1px solid var(--border-color--section);
   border-bottom: 1px solid var(--border-color--section);
+  background-color: var(--background);
+  color: var(--text);
 }
 .section--secondary {
   @apply py-[2rem] lg:py-[3.5rem];
   background-color: var(--background-secondary);
+  color: var(--secondary--text);
 }
 
 .section--footer {
@@ -189,12 +192,4 @@ body {
 
 .footer--text {
   @apply text-[.9rem] lg:text-[1.1rem] text-[rgba(255,255,255,.7)];
-}
-
-@media (prefers-color-scheme: light) {
-  html,
-  body {
-    background: var(--background-secondary) !important;
-    color: var(--secondary--text) !important;
-  }
 }
