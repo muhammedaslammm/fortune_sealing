@@ -15,11 +15,12 @@ export const products = [
         image: "/images/packerelements/element2.png",
       },
       {
-        title: "7 XPH Packer Element Material: - Viton-80 Duro",
+        title:
+          "Bonded Sleeve Packer with Spring, Material:- HNBR 80 + Mild Steel.",
         image: "/images/packerelements/element3.png",
       },
       {
-        title: "7 XPH Packer Element Material: - Viton-80 Duro",
+        title: "2 Half Liner Wiper Material: - Viton 70 Duro.",
         image: "/images/packerelements/element4.png",
       },
       {
@@ -104,7 +105,8 @@ export const products = [
       },
 
       {
-        title: "Flapper Seal Material: - HNBR 90 Duro + SS.304/316.",
+        title:
+          "BALL PLUG S SWIVEL TYPE - H (Cradle Seal) Material: - HNBR-90 + SS.316",
         image: "/images/Rings/element8.png",
       },
       {
@@ -112,7 +114,7 @@ export const products = [
         image: "/images/Rings/element9.png",
       },
       {
-        title: "PTFE SCREW  Material: - PTFE.",
+        title: "ADV Seal Ring (020177) Material - Viton 90 duro",
         image: "/images/Rings/element10.png",
       },
       {
@@ -120,7 +122,7 @@ export const products = [
         image: "/images/Rings/element11.png",
       },
       {
-        title: "ADV Seal Ring (020174)Material - Viton 90 duro.",
+        title: "ADV- Seal Ring 2 7/8. Material - Viton 90 duro.",
         image: "/images/Rings/element12.png",
       },
       {
@@ -171,7 +173,7 @@ export const products = [
       },
 
       {
-        title: "DIAPHRAM SEAL with Fiber.Material: - HNBR 90 duro with Fiber.",
+        title: "DIAPHRAM SEAL with Fiber. Material: - HNBR 90 duro with Fiber.",
         image: "/images/seals/element7.png",
       },
       {
@@ -286,7 +288,7 @@ export const products = [
       {
         title:
           "Hammer Union Seal (Rubber) Material: - Viton / HNBR / NBR - 90 Duro",
-        image: "/images/hammer/element5.png",
+        image: "/images/hammer/element7.png",
       },
       {
         title:
