@@ -41,7 +41,7 @@ const Industries = () => {
             Industries We Serve
           </div>
         </div>
-        <div className="section--right grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 auto-rows-[14rem] sm:auto-rows-[16rem] lg:auto-rows-[24rem] gap-4 mt-4 lg:mt-0">
+        <div className="section--right grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 auto-rows-[14rem] sm:auto-rows-[16rem] lg:auto-rows-[34rem] gap-4 mt-4 lg:mt-0">
           {industries.map((industry) => (
             <div
               className="relative hover:-translate-y-[3px] active:translate-y-0 transition-transform h-full"
