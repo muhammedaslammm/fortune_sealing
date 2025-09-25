@@ -1,11 +1,13 @@
 export const products = [
   {
-    id: "packer-elements",
+    id: "rubber-seals",
     name: "Rubber Seals",
-    path: "/product/packer-elements",
+    path: "/product/rubber-seals",
     banner_image: "/images/products/packer_element.png",
     description:
-      "Our high-performance Packer Elements are engineered for oil & gas well completion and intervention tools. Designed with advanced elastomer compounds, they provide reliable sealing under extreme downhole conditions including high pressure, temperature, and corrosive fluids.",
+      "Cherished for their precise engineering, our Rubber Seals are quite popular among the customers. As an instrumental provider, we match our quality in alignment with our reputation. Only first rate raw material is used for as quality tops our priority list. They are consistent, highly efficient and durable. Our valued customers may also get them delivered. We make them available for pocket friendly rates.",
+    short_description:
+      "Durable, precisely engineered rubber seals made from premium raw materials at affordable prices.",
     images: [
       {
         title: "Packer Element Tube Bag 3 (HNBR 85)",
@@ -61,12 +63,14 @@ export const products = [
     ],
   },
   {
-    id: "backup-rings-o-rings",
+    id: "industrial-seals",
     name: "Industrial Seals",
-    path: "/product/backup-rings-o-rings",
+    path: "/product/industrial-seals",
     banner_image: "/images/products/backup-o-rings.png",
     description:
-      "Backup Rings and O-Rings are essential sealing components for oilfield equipment, preventing extrusion and maintaining sealing integrity in high-pressure applications. Our rings are available in a wide variety of materials and sizes to suit different service conditions.",
+      "Down to our excellence at customer need fulfillment, we have become a prime Manufacturer, Exporter & Supplier in the industry. We offer Industrial Seals in a wide range. The inputs used in manufacturing are high grade. Our outstanding quality team runs several quality tests to be sure that we exceed the quality standards. These quality checks make certain their incomparable quality. This range includes Wafer Seals, Kevlar Seals and many more.",
+    short_description:
+      "Wide range of industrial seals, rigorously tested for unmatched quality and reliability.",
     images: [
       {
         title: "O-RING",
@@ -126,12 +130,14 @@ export const products = [
     ],
   },
   {
-    id: "bop-seals",
+    id: "gaskets",
     name: "Gaskets",
-    path: "/product/bop-seals",
+    path: "/product/gaskets",
     banner_image: "/images/products/bop_inner-outer.png",
     description:
-      "Our BOP Inner and Outer Seals are critical components designed to ensure safety and performance in Blowout Preventers. Engineered with advanced elastomers, these seals withstand extreme pressure and harsh drilling conditions while maintaining consistent sealing reliability.",
+      "Renowned for their reliability and precision, our Gaskets are designed to deliver superior sealing solutions across diverse industrial applications. Manufactured from premium-grade materials, they ensure excellent resistance to pressure, temperature, and wear. With consistency, durability, and performance at their core, our gaskets guarantee a secure fit and long-lasting service. Customers can rely on us for timely delivery and cost-effective pricing without compromise on quality.",
+    short_description:
+      "Premium gaskets ensuring secure, durable sealing with resistance to pressure, temperature, and wear.",
     images: [
       {
         title: "X-Type 3 INNER SEAL (60 Degree Slide) Material: - Viton-80/85",
@@ -200,12 +206,14 @@ export const products = [
     ],
   },
   {
-    id: "swab-cups-v-packings",
+    id: "polyurethane-products",
     name: "Polyurethane Products",
-    path: "/product/swab-cups-v-packings",
+    path: "/product/Polyurethane-products",
     banner_image: "/images/products/swabcup-vpack.png",
     description:
-      "Our Swab Cups and V Packings are designed for efficient well servicing operations. Made from high-quality elastomeric compounds, they deliver superior sealing under dynamic conditions while resisting wear and tear in abrasive environments.",
+      "Leading Manufacturers, Exporters and Wholesaler of Pack Off Seal Polyurethane(Blue), Polyurethane Pipes, Polyurethane Rollers and Polyurethane Tube from Vapi.",
+    short_description:
+      "Trusted manufacturer and exporter of polyurethane seals, pipes, rollers, and tubes.",
     images: [
       {
         title: "SWAB CUP (Wafer) Material: - NBR + Aluminum",
@@ -234,12 +242,13 @@ export const products = [
     ],
   },
   {
-    id: "hammer-stuffing",
+    id: "rubber-products",
     name: "Rubber Products",
-    path: "/product/hammer-stuffing",
+    path: "/product/rubber-products",
     banner_image: "/images/products/hammer_and_stuffing.png",
-    description:
-      "Hammer Union Seals and Stuffing Box Packings are engineered for rugged oilfield operations where reliability is non-negotiable. Our seals are designed to handle extreme pressures, abrasive fluids, and harsh working conditions.",
+    description: `Leading Manufacturers, Exporters and Wholesaler of 3 Inch X-Type Inner Seal - Viton + SS Plate, BLOW OUT PLUG, Cement Retainer Packing Element 18.5-8 Inch, Demco Mud Gate Valve Seal, Dual Bore End & Centre Packer Element, Hammer Union Seal - 1.1-2 Inch - Viton + SS Ring, Hammer Union Seal - 2", 3", 4", 5", Hammer Union Seal - 3 Inch - Brass + NBR, Hammer Union Seal Size 2 Inch Brass + HNBR, Metal To Viton Rubber Bonded Seals, Mud Gate Valve Seal, O'rings, Pack Off Rubber, Polyurethane Seal, Rubber Bonded Moulded Equipment, Rubber Diaphragm, Rubber Gas Lift Valves, Rubber O Rings, Rubber Packer Elements, Rubber Swab Cups, Rubber U Seal, Swab Cup, Victualic Gaskets and Viton Packer Element from Vapi.`,
+    short_description:
+      "Extensive range of seals, gaskets, packers, and rubber components from Vap",
     images: [
       {
         title: "Hammer Union Seal (Rubber) Material: - Viton (Green Shade)",

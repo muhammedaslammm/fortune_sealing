@@ -37,20 +37,24 @@ const Industries = () => {
     <section className="section--primary" id="industries">
       <div className="inner--section">
         <div className="section--left">
-          <div className="section_head--primary">Industries We Serve</div>
+          <div className="section_head--primary text-center">
+            Industries We Serve
+          </div>
         </div>
-        <div className="section--right grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 lg:mt-0">
+        <div className="section--right grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 auto-rows-[14rem] sm:auto-rows-[16rem] lg:auto-rows-[24rem] gap-4 mt-4 lg:mt-0">
           {industries.map((industry) => (
             <div
-              className="relative hover:-translate-y-[3px] active:translate-y-0 transition-transform"
+              className="relative hover:-translate-y-[3px] active:translate-y-0 transition-transform h-full"
               key={industry.id}
             >
               <img
                 src={industry.url}
                 alt={industry.image_attribute}
-                className="h-[14rem] sm:h-[16rem] lg:h-[18rem] w-full rounded-[.5rem] object-cover"
+                className="lg:h-full w-full rounded-[.5rem] object-cover"
               />
-              <div className="image-text--primary">{industry.title}</div>
+              <div className="text_color--primary absolute top-4 left-4 text-[1.2rem] xl:text-[1.2rem] font-medium w-[10rem] leading-[1.4rem] xl:leading-[1.5rem]">
+                {industry.title}
+              </div>
             </div>
           ))}
         </div>
