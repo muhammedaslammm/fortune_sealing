@@ -199,114 +199,94 @@ export const products = [
       "Extensive range of seals, gaskets, packers, and rubber components from Vap",
     images: [
       {
-        title: "Hammer Union Seal (Rubber) Material: - Viton (Green Shade)",
+        title: "BLOW OUT PLUG",
         image: "/images/rubberproducts/element1.png",
       },
       {
-        title: "Hammer Union Seal (TEFLON)Material: - VIRGIN PTFE.",
+        title: "Rubber U Seal",
         image: "/images/rubberproducts/element2.png",
       },
       {
-        title: "Hammer Union Seal (Rubber) Material: - Viton (Yellow Shade)",
+        title: "Hammer Union Seal - 1.1-2 Inch - Viton + SS Ring",
         image: "/images/rubberproducts/element3.png",
       },
       {
-        title:
-          "2 Hammer union Seal with Metal Material: - NBR 90 Duro + BRASS.",
+        title: "Mud Gate Valve Seal",
         image: "/images/rubberproducts/element4.png",
       },
       {
-        title:
-          "Hammer Union Seal (Rubber) Material: - Viton / HNBR / NBR - 90 Duro",
+        title: "Hammer Union Seal Size 2 Inch Brass + HNBR",
         image: "/images/rubberproducts/element5.png",
       },
-     
-       {
-        title:
-          "U-Packing Seal with Spring.Material: - HNBR-85 with Cantilever Spring",
+
+      {
+        title: "Rubber Swab Cups",
         image: "/images/rubberproducts/element6.png",
       },
-       {
-        title:
-          "U-Packing Seal with Spring.Material: - HNBR-85 with Cantilever Spring",
+      {
+        title: "Rubber Gas Lift Valves",
         image: "/images/rubberproducts/element7.png",
       },
-       {
-        title:
-          "U-Packing Seal with Spring.Material: - HNBR-85 with Cantilever Spring",
+      {
+        title: "Victualic Gaskets",
         image: "/images/rubberproducts/element8.png",
       },
-       {
-        title:
-          "U-Packing Seal with Spring.Material: - HNBR-85 with Cantilever Spring",
+      {
+        title: "Rubber Packer Elements",
         image: "/images/rubberproducts/element9.png",
       },
-       {
-        title:
-          "U-Packing Seal with Spring.Material: - HNBR-85 with Cantilever Spring",
+      {
+        title: "Cement Retainer Packing Element 18.5-8 Inch",
         image: "/images/rubberproducts/element10.png",
       },
-       {
-        title:
-          "U-Packing Seal with Spring.Material: - HNBR-85 with Cantilever Spring",
+      {
+        title: "3 Inch X-Type Inner Seal - Viton + SS Plate",
         image: "/images/rubberproducts/element11.png",
       },
-       {
-        title:
-          "U-Packing Seal with Spring.Material: - HNBR-85 with Cantilever Spring",
+      {
+        title: "Swab Cup",
         image: "/images/rubberproducts/element12.png",
       },
-       {
-        title:
-          "U-Packing Seal with Spring.Material: - HNBR-85 with Cantilever Spring",
+      {
+        title: "Rubber Diaphragm",
         image: "/images/rubberproducts/element13.png",
       },
-       {
-        title:
-          "U-Packing Seal with Spring.Material: - HNBR-85 with Cantilever Spring",
+      {
+        title: "Viton Packer Element",
         image: "/images/rubberproducts/element14.png",
       },
-       {
-        title:
-          "U-Packing Seal with Spring.Material: - HNBR-85 with Cantilever Spring",
+      {
+        title: "Polyurethane Seal",
         image: "/images/rubberproducts/element15.png",
       },
-       {
-        title:
-          "U-Packing Seal with Spring.Material: - HNBR-85 with Cantilever Spring",
+      {
+        title: "Dual Bore End & Centre Packer Element",
         image: "/images/rubberproducts/element16.png",
       },
-       {
-        title:
-          "U-Packing Seal with Spring.Material: - HNBR-85 with Cantilever Spring",
+      {
+        title: "Hammer Union Seal - 2, 3, 4, 5",
         image: "/images/rubberproducts/element17.png",
       },
-       {
-        title:
-          "U-Packing Seal with Spring.Material: - HNBR-85 with Cantilever Spring",
+      {
+        title: "Rubber Bonded Moulded Equipment",
         image: "/images/rubberproducts/element18.png",
       },
-       {
-        title:
-          "U-Packing Seal with Spring.Material: - HNBR-85 with Cantilever Spring",
+      {
+        title: "Metal To Viton Rubber Bonded Seals",
         image: "/images/rubberproducts/element19.png",
       },
-       {
-        title:
-          "U-Packing Seal with Spring.Material: - HNBR-85 with Cantilever Spring",
+      {
+        title: "Rubber O Rings",
         image: "/images/rubberproducts/element20.png",
       },
-       {
-        title:
-          "U-Packing Seal with Spring.Material: - HNBR-85 with Cantilever Spring",
+      {
+        title: "Demco Mud Gate Valve Seal",
         image: "/images/rubberproducts/element21.png",
       },
       {
-        title:
-          "U-Packing Seal with Spring.Material: - HNBR-85 with Cantilever Spring",
+        title: "Pack Off Rubber",
         image: "/images/rubberproducts/element22.png",
       },
-
     ],
   },
 ];
