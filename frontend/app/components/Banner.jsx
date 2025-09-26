@@ -25,7 +25,7 @@ const Banner = () => {
             slidesPerView={1}
             autoplay={{ delay: 3000 }}
             loop
-            className="h-full"
+            className="h-full w-full "
           >
             <SwiperSlide>
               <picture>
@@ -36,7 +36,7 @@ const Banner = () => {
                 <img
                   src="/images/banner/banner4.jpg"
                   alt="packer banner"
-                  className="h-full w-full md:object-contain"
+                  className="h-full w-full md:object-cover"
                 />
               </picture>
             </SwiperSlide>
@@ -49,7 +49,7 @@ const Banner = () => {
                 <img
                   src="/images/banner/banner2.jpg"
                   alt="o ring banner"
-                  className="h-full w-full object-center md:object-contain"
+                  className="h-full w-full object-center md:object-cover"
                 />
               </picture>
             </SwiperSlide>
@@ -62,7 +62,7 @@ const Banner = () => {
                 <img
                   src="/images/banner/banner3.jpg"
                   alt="ball plug valve banner"
-                  className="h-full w-full object-center md:object-contain"
+                  className="h-full w-full object-center md:object-cover"
                 />
               </picture>
             </SwiperSlide>

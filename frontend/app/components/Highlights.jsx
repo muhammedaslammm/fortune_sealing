@@ -25,7 +25,7 @@ const Highlights = () => {
                 <div className="text1--highlight-box lg:text-[1.2rem] xl:text-[1.6rem] font-medium text-center leading-[1.8rem] mt-auto">
                   {highlight.title}
                 </div>
-                <div className="lg:text-[1.2rem] leading-[1.4rem] lg:leading-[1.6rem] w-[90%] mx-auto text-center">
+                <div className="text1--highlight-box lg:text-[1.2rem] leading-[1.4rem] lg:leading-[1.6rem] w-[90%] mx-auto text-center ">
                   {highlight.description}
                 </div>
               </div>
