@@ -30,11 +30,11 @@ const Products = () => {
                 <div className="mt-auto text_color--secondary text max-w-[30rem] text-[1.2rem] leading-[1.5rem]">
                   {product.short_description}
                 </div>
-                {/* <img
+                <img
                   className="absolute top-[0rem] right-[.5rem] h-[8rem] w-[8rem] lg:h-[9rem] lg:w-[9rem] xl:w-[10rem] xl:h-[10rem] object-contain"
                   src={product.banner_image}
                   alt={product.name}
-                /> */}
+                />
               </div>
             </Link>
           ))}

@@ -3,7 +3,7 @@ export const products = [
     id: "rubber-seals",
     name: "Rubber Seals",
     path: "/product/rubber-seals",
-    banner_image: "/images/products/packer_element.png",
+    banner_image: "/images/rubberseal/element10.png",
     description:
       "Cherished for their precise engineering, our Rubber Seals are quite popular among the customers. As an instrumental provider, we match our quality in alignment with our reputation. Only first rate raw material is used for as quality tops our priority list. They are consistent, highly efficient and durable. Our valued customers may also get them delivered. We make them available for pocket friendly rates.",
     short_description:
@@ -92,7 +92,7 @@ export const products = [
     id: "industrial-seals",
     name: "Industrial Seals",
     path: "/product/industrial-seals",
-    banner_image: "/images/products/backup-o-rings.png",
+    banner_image: "/images/industrialseal/element1.png",
     description:
       "Down to our excellence at customer need fulfillment, we have become a prime Manufacturer, Exporter & Supplier in the industry. We offer Industrial Seals in a wide range. The inputs used in manufacturing are high grade. Our outstanding quality team runs several quality tests to be sure that we exceed the quality standards. These quality checks make certain their incomparable quality. This range includes Wafer Seals, Kevlar Seals and many more.",
     short_description:
@@ -145,7 +145,7 @@ export const products = [
     id: "gaskets",
     name: "Gaskets",
     path: "/product/gaskets",
-    banner_image: "/images/products/bop_inner-outer.png",
+    banner_image: "/images/gaskets/element2.png",
     description:
       "Renowned for their reliability and precision, our Gaskets are designed to deliver superior sealing solutions across diverse industrial applications. Manufactured from premium-grade materials, they ensure excellent resistance to pressure, temperature, and wear. With consistency, durability, and performance at their core, our gaskets guarantee a secure fit and long-lasting service. Customers can rely on us for timely delivery and cost-effective pricing without compromise on quality.",
     short_description:
@@ -165,7 +165,7 @@ export const products = [
     id: "polyurethane-products",
     name: "Polyurethane Products",
     path: "/product/polyurethane-products",
-    banner_image: "/images/products/swabcup-vpack.png",
+    banner_image: "/images/polyurethane/element1.png",
     description:
       "Leading Manufacturers, Exporters and Wholesaler of Pack Off Seal Polyurethane(Blue), Polyurethane Pipes, Polyurethane Rollers and Polyurethane Tube from Vapi.",
     short_description:
@@ -193,7 +193,7 @@ export const products = [
     id: "rubber-products",
     name: "Rubber Products",
     path: "/product/rubber-products",
-    banner_image: "/images/products/hammer_and_stuffing.png",
+    banner_image: "/images/rubberproducts/element10.png",
     description: `Leading Manufacturers, Exporters and Wholesaler of 3 Inch X-Type Inner Seal - Viton + SS Plate, BLOW OUT PLUG, Cement Retainer Packing Element 18.5-8 Inch, Demco Mud Gate Valve Seal, Dual Bore End & Centre Packer Element, Hammer Union Seal - 1.1-2 Inch - Viton + SS Ring, Hammer Union Seal - 2", 3", 4", 5", Hammer Union Seal - 3 Inch - Brass + NBR, Hammer Union Seal Size 2 Inch Brass + HNBR, Metal To Viton Rubber Bonded Seals, Mud Gate Valve Seal, O'rings, Pack Off Rubber, Polyurethane Seal, Rubber Bonded Moulded Equipment, Rubber Diaphragm, Rubber Gas Lift Valves, Rubber O Rings, Rubber Packer Elements, Rubber Swab Cups, Rubber U Seal, Swab Cup, Victualic Gaskets and Viton Packer Element from Vapi.`,
     short_description:
       "Extensive range of seals, gaskets, packers, and rubber components from Vap",
