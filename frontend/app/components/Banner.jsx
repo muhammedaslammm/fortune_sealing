@@ -9,7 +9,7 @@ const Banner = () => {
   return (
     <section>
       <div className="pt-[5rem] lg:pt-[6rem] space-y-6 lg:space-y-6">
-        <div className="bg-[#dcdcdc] h-[35rem] md:h-[18rem] lg:h-[40rem] relative">
+        <div className="bg-[#f6f6f6] h-[35rem] md:h-[18rem] lg:h-[40rem] relative">
           {/* <Swiper
             modules={[Autoplay]}
             slidesPerView={1}
