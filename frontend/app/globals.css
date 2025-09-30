@@ -1,12 +1,11 @@
 @import "tailwindcss";
 :root {
-  --text: #ffffff;
-  --secondary--text: #0f243d;
+  --text: #1b1b1b;
+  --secondary--text: #1b1b1b;
   --secondary--text-fade: rgb(15, 36, 61, 0.6);
-  --background: #0f243d;
-  --background-secondary: #f4f4f4;
+  --background: #fefefe;
+  --background-secondary: #155eb6;
   --card-border: rgba(15, 36, 61, 0.6);
-  --border-color--section: rgba(255, 255, 255, 0.5);
   --border-highlight: rgba(0, 0, 0, 0.25);
   --color-fade1: rgba(255, 255, 255, 0.5);
   --color-fade2: rgb(255, 255, 255);
@@ -35,17 +34,13 @@ body {
 
 .header {
   @apply fixed top-0 left-0 w-full z-1000;
-  border-bottom: 1px solid var(--border-color--section);
-  background-color: var(--background);
+  border-bottom: 1px solid gray;
+  background-color: var(--background-secondary);
 }
 .scrollbar {
   scrollbar-width: none;
 }
 
-.circle-shift {
-  margin-left: 0.5rem; /* adjust value: 0.25rem for smaller, 0.75rem for bigger */
-}
-/* Center footer Links & Contact ONLY on mobile */
 @media (max-width: 639px) {
   footer .lg\:w-1\/2.flex {
     align-items: center; /* center horizontally */
@@ -63,24 +58,22 @@ body {
 }
 
 .section--primary {
-  @apply py-[2rem] lg:py-[3.5rem] my-[2rem] lg:my-[3.5rem];
-  border-top: 1px solid var(--border-color--section);
-  border-bottom: 1px solid var(--border-color--section);
+  @apply py-[2rem] lg:py-[3.5rem];
   background-color: var(--background);
   color: var(--text);
 }
 .section--secondary {
   @apply py-[2rem] lg:py-[3.5rem];
-  background-color: var(--background-secondary);
-  color: var(--secondary--text);
+  color: var(--text);
 }
 
-.bg-pattern {
-  @apply py-[2rem] lg:py-[3.5rem];
-  background-image: url("/images/banner/background-section.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.section_head--primary {
+  @apply lg:text-[2rem] text-center font-semibold uppercase leading-[1.2rem] lg:leading-[1.4rem] w-full;
+  color: var(--text);
+}
+.section_head--secondary {
+  @apply lg:text-[2rem] text-center font-semibold uppercase leading-[1.2rem] lg:leading-[1.4rem];
+  color: var(--text);
 }
 
 .section--footer {
@@ -109,15 +102,6 @@ body {
   scrollbar-width: none;
 }
 
-.section_head--primary {
-  @apply lg:text-[1.4rem] text-center font-medium uppercase leading-[1.2rem] lg:leading-[1.4rem] w-full;
-  color: var(--color-fade2);
-}
-.section_head--secondary {
-  @apply lg:text-[1.4rem] text-center font-medium uppercase leading-[1.2rem] lg:leading-[1.4rem];
-  color: var(--color-fade3);
-}
-
 .section_paragraph {
   @apply lg:text-[1.2rem];
 }
@@ -127,21 +111,9 @@ body {
   border: 1px solid var(--card-border);
 }
 
-.image-text--secondary {
-  @apply text-[1.8rem] font-medium w-[10rem] leading-[2rem];
-  color: var(--secondary--text);
-}
-.text_color--secondary {
-  color: var(--secondary--text);
-}
-
 .text_color--primary {
   color: var(--text);
 }
-
-/* .image {
-  @apply;
-} */
 
 .border--highlight {
   background-color: var(--border-highlight);
@@ -165,7 +137,7 @@ body {
 }
 .mission_statement--description {
   @apply text-[1.3rem] lg:text-[2rem] max-w-[60rem] text-center leading-[1.6rem] lg:leading-[2.5rem];
-  color: var(--color-fade2);
+  color: var(--text);
   font-family: var(--font-judson);
 }
 
@@ -187,7 +159,6 @@ body {
 /* individual product */
 .page--product {
   @apply py-[6rem] sm:py-[3.8rem] md:py-[4rem] lg:py-[8rem];
-  background-color: var(--background-secondary);
 }
 .page--product-heading {
   @apply text-[1.1rem] md:text-[1.8rem] lg:text-[1.8rem] font-medium tracking-[-.05rem] lg:w-[40rem] leading-[2.5rem];

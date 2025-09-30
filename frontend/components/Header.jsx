@@ -24,7 +24,7 @@ const Header = () => {
             />
           </Link>
         </div>
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-6 text-white">
           <nav className="hidden lg:flex gap-6">
             {navbar.map((n, i) => (
               <Link key={i} href={n.path}>

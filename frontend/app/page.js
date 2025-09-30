@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <main className="relative">
       <Banner />
-      <About />
+      {/* <About /> */}
       <Products />
-      <Industries />
       <Highlights />
+      <Industries />
       <MissionStatement />
       <Contact />
     </main>
