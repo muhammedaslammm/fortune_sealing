@@ -29,8 +29,9 @@ const ProductPage = () => {
                   {product.images.map((image, index) => (
                     <div
                       key={index}
-                      className="border border-[#BABABA] bg-[#f9f9f9] hover:bg-[#ffffff] transition bg- p-4 flex flex-col items-center justify-center gap-5 rounded-[.5rem]"
+                      className="border border-[#BABABA]  transition bg- p-4 flex flex-col items-center justify-center gap-5 rounded-[.5rem]"
                     >
+                      {/* bg-[#f9f9f9] */}
                       <img
                         src={image.image}
                         alt={image.title}
