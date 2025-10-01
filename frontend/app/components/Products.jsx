@@ -22,9 +22,9 @@ const Products = () => {
             <Link
               key={index}
               href={product.path}
-              className="group flex flex-col gap-2 bg-white"
+              className="group flex flex-col gap-0 bg-white"
             >
-              <div className=" text-black text-center text-[1.3rem] font-medium py-[.3rem]">
+              <div className=" text-black text-center text-[1.3rem] font-medium py-[.3rem] border-b border-neutral-300">
                 {product.name}
               </div>
               <div className="relative w-full h-full overflow-hidden">
@@ -34,7 +34,7 @@ const Products = () => {
                       key={i}
                       src={p.image}
                       alt={p.title}
-                      className="w-full h-full object-contain bg-white p-4"
+                      className="w-full h-full object-contain bg-white p-6"
                     />
                   ))}
                 </div>

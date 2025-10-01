@@ -18,11 +18,11 @@ const Highlights = () => {
               className="flex flex-col items-center justify-center gap-2 sm:gap-2 md:gap-4 py-6 lg:py-2 px-4 xl:h-auto"
             >
               <Icon
-                className="text-[#155eb6] w-7 h-7 xl:w-[2.5rem] xl:h-[2.5rem]"
+                className="text-[#155eb6] w-7 h-7 xl:w-[3rem] xl:h-[3rem]"
                 weight="duotone"
               />
               <div className="flex flex-col gap-3">
-                <div className="lg:text-[1.2rem] xl:text-[1.5rem] font-medium text-center leading-[1.8rem] mt-auto">
+                <div className="lg:text-[1.2rem] xl:text-[1.8rem] font-medium text-center leading-[1.8rem] mt-auto">
                   {highlight.title}
                 </div>
                 <div className="lg:text-[1.2rem] leading-[1.4rem] lg:leading-[1.6rem] w-[90%] mx-auto text-center text-black">

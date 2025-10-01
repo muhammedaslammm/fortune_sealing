@@ -8,9 +8,9 @@ import "swiper/css/navigation";
 const Banner = () => {
   return (
     <section>
-      <div className="pt-[5rem] lg:pt-[6rem] space-y-6 lg:space-y-6">
-        <div className="bg-[#f6f6f6] h-[35rem] md:h-[18rem] lg:h-[40rem] relative">
-          {/* <Swiper
+      <div className="pt-[5rem] lg:pt-[7.5rem] space-y-6 lg:space-y-6">
+        <div className="bg-black h-[35rem] md:h-[18rem] lg:h-[30rem] relative">
+          <Swiper
             modules={[Autoplay]}
             slidesPerView={1}
             autoplay={{ delay: 3000 }}
@@ -24,9 +24,9 @@ const Banner = () => {
                   srcSet="/images/banner/banner11.jpg"
                 />
                 <img
-                  src="/images/banner/banner4.jpg"
+                  src="/images/banner/banner1.jpg"
                   alt="packer banner"
-                  className="h-full w-full md:object-cover"
+                  className="h-full w-full md:object-fill"
                 />
               </picture>
             </SwiperSlide>
@@ -39,24 +39,24 @@ const Banner = () => {
                 <img
                   src="/images/banner/banner2.jpg"
                   alt="o ring banner"
-                  className="h-full w-full object-center md:object-cover"
+                  className="h-full w-full object-center md:object-fill"
                 />
               </picture>
             </SwiperSlide>
-            <SwiperSlide>
-              <picture>
+            {/* <SwiperSlide>
+              <picture className="">
                 <source
                   media="(max-width:640px)"
                   srcSet="/images/banner/banner33.jpg"
                 />
                 <img
-                  src="/images/banner/banner3.jpg"
+                  src="/images/banner/banner3.jpeg"
                   alt="ball plug valve banner"
-                  className="h-full w-full object-center md:object-cover"
+                  className="h-full w-full object-center md:object-fill"
                 />
               </picture>
-            </SwiperSlide>
-          </Swiper> */}
+            </SwiperSlide> */}
+          </Swiper>
         </div>
       </div>
     </section>

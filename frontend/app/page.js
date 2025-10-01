@@ -14,8 +14,8 @@ export default function Home() {
       <Products />
       <Highlights />
       <Industries />
-      {/*<MissionStatement />
-      <Contact /> */}
+      <MissionStatement />
+      <Contact />
     </main>
   );
 }

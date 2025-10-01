@@ -24,7 +24,7 @@ const Industries = () => {
 
               <div
                 className={`absolute inset-0 ${
-                  index % 2 === 0 ? "hover_bg" : "bg-black"
+                  index % 2 === 0 ? "hover_bg" : "bg-neutral-700"
                 } flex items-center justify-center p-4 group-hover:-translate-x-[110%] duration-200 transition-transform`}
               >
                 <div className="text-white text-[1.4rem] text-center leading-[1.6rem] font-medium ">

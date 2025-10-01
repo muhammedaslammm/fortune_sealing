@@ -21,51 +21,41 @@ html {
   color-scheme: light;
   --webkit-color-scheme: light;
 }
-
 body {
   font-family: var(--font-poppins);
   background-color: var(--background);
   color: var(--text);
 }
-
 .font--judson {
   font-family: var(--font-judson);
 }
-
 .header {
   @apply fixed top-0 left-0 w-full z-1000;
-  border-bottom: 1px solid gray;
   background-color: var(--background-secondary);
 }
 .scrollbar {
   scrollbar-width: none;
 }
-
 .text_color--primary {
   color: var(--text);
 }
-
 .hover_bg {
   background-color: var(--background-secondary);
 }
-
 .bg--secondary {
   background-color: var(--background-secondary);
 }
-
 .color--fade {
   color: var(--color-fade1);
 }
-
 .section--primary {
   @apply py-[2rem] lg:py-[2rem];
   color: var(--text);
 }
 .section--secondary {
-  @apply py-[2rem] lg:py-[2rem] mt-[2rem];
+  @apply py-[2rem] lg:py-[2rem];
   color: var(--text);
 }
-
 .pattern {
   --s: 18px; /* control the size*/
   --c1: #ffffff;
@@ -79,7 +69,6 @@ body {
     linear-gradient(-45deg, var(--l1)) var(--c2);
   background-size: calc(2 * var(--s)) var(--s), var(--s) var(--s);
 }
-
 .pattern--box {
   --s: 18px; /* control the size*/
   --c1: #ffffff;
@@ -93,77 +82,49 @@ body {
     linear-gradient(-45deg, var(--l1)) var(--c2);
   background-size: calc(2 * var(--s)) var(--s), var(--s) var(--s);
 }
-
 .section_head--primary {
-  @apply lg:text-[2rem] text-center font-semibold uppercase leading-[1.2rem] lg:leading-[1.4rem] w-full;
+  @apply lg:text-[1.7rem] uppercase tracking-[-.05rem] text-center font-medium leading-[1.2rem] lg:leading-[1.4rem];
   color: var(--text);
 }
 .section_head--secondary {
-  @apply lg:text-[1.8rem] text-center font-semibold uppercase leading-[1.2rem] lg:leading-[1.4rem];
+  @apply lg:text-[1.7rem] uppercase tracking-[-.05rem] text-center font-medium leading-[1.2rem] lg:leading-[1.4rem];
   color: var(--text);
 }
-
-.section--footer {
-  @apply py-[2rem] lg:py-[3.5rem] mt-[2rem] mb-[1rem] lg:mt-[3.5rem] lg:mb-[1.5rem];
-  border-top: 1px solid var(--border-color--section);
-  border-bottom: 1px solid var(--border-color--section);
-}
-
 .banner--head {
   color: var(--secondary--text);
 }
 .banner--description {
   color: var(--secondary--text-fade);
 }
-
 .inner--section {
-  @apply w-[95%] lg:w-[95%] mx-auto flex flex-col gap-2 lg:flex-col lg:gap-6;
+  @apply w-[95%] lg:w-[95%] mx-auto flex flex-col gap-2 lg:flex-col lg:gap-4;
 }
-
 .section--left {
   @apply w-full lg:w-full;
 }
-
 .section--right {
   @apply w-full lg:w-full;
   scrollbar-width: none;
 }
-
 .section_paragraph {
   @apply lg:text-[1.2rem];
 }
-
 .image--box {
   @apply relative bg-white rounded-[.5rem] h-[12rem] md:h-[15rem] lg:h-[18rem] flex flex-col p-4;
   border: 1px solid var(--card-border);
 }
-
 .border--highlight {
   background-color: var(--border-highlight);
 }
-
 .highlight--card {
   border: 1px solid var(--card-border);
 }
-
 .text1--highlight-box {
   color: var(--secondary--text);
 }
 .text2--highlight-box {
   color: var(--secondary--text);
 }
-
-.mission_statement--heading {
-  @apply text-[1.8rem] lg:text-[2.5rem];
-  color: var(--text);
-  font-family: var(--font-judson);
-}
-.mission_statement--description {
-  @apply text-[1.3rem] lg:text-[2rem] max-w-[60rem] text-center leading-[1.6rem] lg:leading-[2.5rem];
-  color: var(--text);
-  font-family: var(--font-judson);
-}
-
 .form--section {
   @apply md:w-1/2 flex flex-col gap-4;
 }
@@ -171,17 +132,16 @@ body {
   @apply lg:text-[1.2rem];
 }
 .form--input {
-  @apply w-full py-2 px-3 lg:px-4 border border-[#b6b6b6] bg-[#f4f4f4]/50 lg:text-[1.1rem] rounded-[.3rem];
+  @apply w-full py-2 px-3 lg:px-4 border border-[#b6b6b6] bg-white lg:text-[1.1rem] rounded-[.3rem];
 }
 .form--button {
-  @apply w-full py-1.5 px-4 hover:-translate-y-[2px] active:translate-y-0 transition-transform cursor-pointer;
-  background-color: var(--background);
-  color: var(--text);
+  @apply w-full py-1.5 px-4 hover:-translate-y-[2px] active:translate-y-0 transition-transform cursor-pointer text-white font-medium;
+  background-color: var(--background-secondary);
 }
 
 /* individual product */
 .page--product {
-  @apply py-[6rem] sm:py-[3.8rem] md:py-[4rem] lg:py-[8rem];
+  @apply py-[6rem] sm:py-[3.8rem] md:py-[4rem] lg:pt-[8rem] lg:pb-0;
 }
 .page--product-heading {
   @apply text-[1.1rem] md:text-[1.8rem] lg:text-[1.8rem] font-medium tracking-[-.05rem] lg:w-[40rem] leading-[2.5rem];
@@ -190,11 +150,9 @@ body {
 .page--product-text {
   @apply text-[1rem] lg:text-[1.2rem] text-black leading-[1.4rem] text-justify;
 }
-
 .footer--text {
   @apply text-[.9rem] lg:text-[1.1rem] text-[rgba(255,255,255,.7)];
 }
-
 @media (max-width: 639px) {
   footer .lg\:w-1\/2.flex {
     align-items: center; /* center horizontally */

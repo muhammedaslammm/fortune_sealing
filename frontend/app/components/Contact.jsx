@@ -2,7 +2,7 @@ import Form from "./form/Form";
 
 const Contact = () => {
   return (
-    <section className="bg-pattern" id="contact">
+    <section className="section--secondary pattern !mt-0" id="contact">
       <div className="inner--section">
         <div className="section--left">
           <div className="section_head--secondary">Contact Us</div>

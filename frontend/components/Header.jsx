@@ -14,12 +14,12 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="bg-neutral-700 py-[.3rem] flex justify-center">
+      {/* <div className="bg-neutral-700 py-[.3rem] flex justify-center">
         <div className="text-white">
           24 x 7 Consulting Available - +91 9870398237
         </div>
-      </div>
-      <div className="w-[95%] lg:w-[85%] mx-auto flex justify-between items-center py-3 lg:py-0">
+      </div> */}
+      <div className="w-[95%] lg:w-[95%] mx-auto flex justify-between items-center py-3 lg:py-0">
         <div className="font-medium text-[1.1rem]">
           <Link href="/">
             <img
@@ -39,7 +39,7 @@ const Header = () => {
           </nav>
           <Link
             href="/products"
-            className="hidden lg:flex items-center gap-1 bg-[#2761ae] hover:bg-[#20559b] transition py-5 px-2"
+            className="hidden lg:flex items-center gap-1 text-black font-semibold bg-blue-300 hover:bg-[#3880de] hover:text-white transition py-5 px-2"
           >
             View Brochure <File weight="bold" className="w-5 h-5" />
           </Link>
@@ -49,11 +49,9 @@ const Header = () => {
           <Rows className="w-6 h-6" />
         </div>
       </div>
-      {path === "product" && (
-        <div className="bg-[#d2dce9]">
-          <ProductNav />
-        </div>
-      )}
+      <div className="bg-neutral-700">
+        <ProductNav />
+      </div>
     </header>
   );
 };

@@ -1,6 +1,6 @@
 const Form = () => {
   return (
-    <div className="relative bg-[#ffffff] border border-[#b6b6b6] min-h-[500px] p-4 lg:px-10 lg:py-8 rounded-[.5rem]">
+    <div className="relative bg-[#ffffff]/50 border border-[#b6b6b6] min-h-[500px] p-4 lg:px-10 lg:py-8 rounded-[.5rem] backdrop-blur-[1px] shadow-[0_0_10px_#C1C0C03]">
       <div className="text-black flex flex-col md:flex-row gap-4 w-full">
         <div className="form--section">
           <div className="space-y-1">
