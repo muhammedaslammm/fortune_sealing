@@ -14,6 +14,11 @@ const Header = () => {
 
   return (
     <header className="header">
+      <div className="bg-neutral-700 py-[.3rem] flex justify-center">
+        <div className="text-white">
+          24 x 7 Consulting Available - +91 9870398237
+        </div>
+      </div>
       <div className="w-[95%] lg:w-[85%] mx-auto flex justify-between items-center py-3 lg:py-0">
         <div className="font-medium text-[1.1rem]">
           <Link href="/">
@@ -24,7 +29,7 @@ const Header = () => {
             />
           </Link>
         </div>
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-6 text-white">
           <nav className="hidden lg:flex gap-6">
             {navbar.map((n, i) => (
               <Link key={i} href={n.path}>

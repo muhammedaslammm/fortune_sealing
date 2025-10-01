@@ -1,40 +1,50 @@
 import Link from "next/link";
 import { products } from "@/data/products";
 let product_lists = products.map(
-  ({ id, name, path, banner_image, short_description }) => ({
+  ({ id, name, path, banner_image, short_description, images }) => ({
     id,
     name,
     path,
     banner_image,
     short_description,
+    products: images.slice(0, 4),
   })
 );
 const Products = () => {
   return (
-    <section className="bg-pattern" id="products">
-      <div className="inner--section">
+    <section className="section--secondary pattern" id="products">
+      <div className="inner--section ">
         <div className="section--left">
           <div className="section_head--secondary">Our Products</div>
         </div>
-        <div className="section--right grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 mt-4 lg:mt-0">
+        <div className="section--right grid grid-cols-1 auto-rows-[22rem] sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5  gap-4 mt-4 lg:mt-0">
           {product_lists.map((product, index) => (
             <Link
               key={index}
               href={product.path}
-              className="hover:-translate-y-[.25rem] transition-transform"
+              className="group flex flex-col gap-2 bg-white"
             >
-              <div className="image--box xl:col-span-2  cursor-pointer">
-                <div className="text_color--secondary text-[1.8rem] font-medium w-[10rem] leading-[2.2rem]">
-                  {product.name}
+              <div className=" text-black text-center text-[1.3rem] font-medium py-[.3rem]">
+                {product.name}
+              </div>
+              <div className="relative w-full h-full overflow-hidden">
+                <div className="grid grid-cols-2 grid-rows-2 gap-[.1rem] h-full">
+                  {product.products.map((p, i) => (
+                    <img
+                      key={i}
+                      src={p.image}
+                      alt={p.title}
+                      className="w-full h-full object-contain bg-white p-4"
+                    />
+                  ))}
                 </div>
-                <div className="mt-auto text_color--secondary text max-w-[30rem] text-[1.2rem] leading-[1.5rem]">
-                  {product.short_description}
+
+                <div className="absolute inset-0 hover_bg translate-x-[110%] group-hover:translate-x-0 transition-transform duration-200 p-4">
+                  <div className="text-white">
+                    <strong className="mr-1">{product.name}</strong>
+                    <div>{product.short_description}</div>
+                  </div>
                 </div>
-                <img
-                  className="absolute top-[0rem] right-[.5rem] h-[8rem] w-[8rem] lg:h-[9rem] lg:w-[9rem] xl:w-[10rem] xl:h-[10rem] object-contain"
-                  src={product.banner_image}
-                  alt={product.name}
-                />
               </div>
             </Link>
           ))}

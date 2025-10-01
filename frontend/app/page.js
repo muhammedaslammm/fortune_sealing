@@ -10,12 +10,12 @@ export default function Home() {
   return (
     <main className="relative">
       <Banner />
-      <About />
+      {/* <About /> */}
       <Products />
-      <Industries />
       <Highlights />
-      <MissionStatement />
-      <Contact />
+      <Industries />
+      {/*<MissionStatement />
+      <Contact /> */}
     </main>
   );
 }

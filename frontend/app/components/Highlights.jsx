@@ -4,28 +4,28 @@ import highlights from "@/data/highlights";
 
 const Highlights = () => {
   return (
-    <section className="bg-pattern" id="highlights">
+    <section className="section--primary" id="highlights">
       <div className="inner--section">
-        <div className="section--left">
+        {/* <div className="section--left">
           <div className="section_head--secondary">
             Why Choose Fortune Sealing?
           </div>
-        </div>
+        </div> */}
         <div className="section--right relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-4 mt-4 lg:mt-0">
           {highlights.map(({ icon: Icon, ...highlight }) => (
             <div
               key={highlight.id}
-              className="highlight--card flex flex-col items-center justify-center gap-2 sm:gap-2 md:gap-4 py-6 lg:py-8 px-4 rounded-[.5rem] bg-white xl:h-auto"
+              className="flex flex-col items-center justify-center gap-2 sm:gap-2 md:gap-4 py-6 lg:py-2 px-4 xl:h-auto"
             >
               <Icon
-                className="text-[#0f243d] w-7 h-7 xl:w-[3rem] xl:h-[3rem]"
+                className="text-[#155eb6] w-7 h-7 xl:w-[2.5rem] xl:h-[2.5rem]"
                 weight="duotone"
               />
               <div className="flex flex-col gap-3">
-                <div className="text1--highlight-box lg:text-[1.2rem] xl:text-[1.6rem] font-medium text-center leading-[1.8rem] mt-auto">
+                <div className="lg:text-[1.2rem] xl:text-[1.5rem] font-medium text-center leading-[1.8rem] mt-auto">
                   {highlight.title}
                 </div>
-                <div className="text1--highlight-box lg:text-[1.2rem] leading-[1.4rem] lg:leading-[1.6rem] w-[90%] mx-auto text-center ">
+                <div className="lg:text-[1.2rem] leading-[1.4rem] lg:leading-[1.6rem] w-[90%] mx-auto text-center text-black">
                   {highlight.description}
                 </div>
               </div>

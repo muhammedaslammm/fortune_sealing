@@ -11,7 +11,7 @@ const MissionStatement = () => {
           </div>
           <div className="mission_statement--description">
             Engineered to Perform in{" "}
-            <span className="text-white">
+            <span className="">
               Extreme Pressure, Temperature & Corrosive Conditions
             </span>
           </div>
