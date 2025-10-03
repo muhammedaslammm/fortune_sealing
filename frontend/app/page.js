@@ -1,4 +1,3 @@
-import About from "./components/About";
 import Banner from "./components/Banner";
 import Contact from "./components/Contact";
 import Highlights from "./components/Highlights";
@@ -10,7 +9,6 @@ export default function Home() {
   return (
     <main className="relative">
       <Banner />
-      {/* <About /> */}
       <Products />
       <Highlights />
       <Industries />
