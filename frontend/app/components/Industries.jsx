@@ -3,7 +3,7 @@ import industries from "@/data/industries";
 
 const Industries = () => {
   return (
-    <section className="section--primary pattern" id="industries">
+    <section className="section--primary pattern !py-[4rem]" id="industries">
       <div className="inner--section">
         <div className="section--left">
           <div className="section_head--primary text-center">

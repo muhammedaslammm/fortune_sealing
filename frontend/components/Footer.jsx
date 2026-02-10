@@ -8,9 +8,9 @@ const Footer = () => {
           <img
             src={"/images/logo/fortune_sealing_logo_2.png"}
             alt="Fortune Sealing Logo"
-            className="w-[20rem] h-[5rem] object-cover -translate-x-[3rem]"
+            className="w-[15rem] lg:w-[20rem] h-[4rem] lg:h-[5rem] object-cover translate-x-[30%] lg:-translate-x-[3rem]"
           />
-          <div className="footer--text !text-[.9rem] lg:!text-[1.2rem] text-justify w-[60rem]">
+          <div className="footer--text !text-[.9rem] lg:!text-[1.2rem] lg:text-justify lg:w-[60rem]">
             Fortune Sealing Equipment's Trading LLC is a trusted provider of
             high-performance rubber seals and precision-molded components for
             the Oil & Gas industry.
@@ -32,7 +32,7 @@ const Footer = () => {
                     <Link href="/#contact">Contact</Link>
                   </ul>
                 </div>
-                <div className="footer--text w-[50%] space-y-2 lg:space-y-4">
+                <div className="footer--text lg:w-[50%] space-y-2 lg:space-y-4">
                   <div className="text-white">Contact</div>
                   <ul className="space-y-1 lg:space-y-2">
                     <li>

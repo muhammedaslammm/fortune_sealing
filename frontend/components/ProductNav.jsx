@@ -14,7 +14,7 @@ const ProductNav = () => {
 
   useEffect(() => {}, []);
   return (
-    <nav className="w-[95%] lg:w-[95%] mx-auto flex overflow-x-auto scrollbar">
+    <nav className="w-[95%] lg:w-[95%] hidden mx-auto lg:flex overflow-x-auto scrollbar">
       {nav_products.map((i, index) => (
         <Link
           key={index}
@@ -23,7 +23,7 @@ const ProductNav = () => {
             pathname === i.path
               ? "bg-white text-black"
               : "hover:bg-[#f3f3f3] hover:text-black text-white active:bg-[#adc0d5]"
-          }   text-[1.1rem] font-medium transition`}
+          }   text-[.9rem] md:text-[1.1rem] font-medium transition`}
           onClick={() => setPathname(i.path)}
         >
           {i.title}

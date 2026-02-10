@@ -22,7 +22,7 @@ const Highlights = () => {
                 weight="duotone"
               />
               <div className="flex flex-col gap-3">
-                <div className="lg:text-[1.2rem] xl:text-[1.8rem] font-medium text-center leading-[1.8rem] mt-auto">
+                <div className="text-[1.2rem] lg:text-[1.2rem] xl:text-[1.8rem] font-medium text-center leading-[1.8rem] mt-auto">
                   {highlight.title}
                 </div>
                 <div className="lg:text-[1.2rem] leading-[1.4rem] lg:leading-[1.6rem] w-[90%] mx-auto text-center text-black">

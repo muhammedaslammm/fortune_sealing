@@ -9,24 +9,24 @@ const Banner = () => {
   return (
     <section>
       <div className="pt-[5rem] lg:pt-[7.5rem] space-y-6 lg:space-y-6">
-        <div className="bg-black h-[35rem] md:h-[18rem] lg:h-[30rem] relative">
+        <div className="bg-black h-[35rem] md:h-[18rem] lg:h-[38rem] relative">
           <Swiper
             modules={[Autoplay]}
             slidesPerView={1}
             autoplay={{ delay: 3000 }}
             loop
-            className="h-full w-full "
+            className="h-full w-full"
           >
             <SwiperSlide>
               <picture>
                 <source
                   media="(max-width:640px)"
-                  srcSet="/images/banner/banner11.jpg"
+                  srcSet="/images/banner/banner22.jpg"
                 />
                 <img
                   src="/images/banner/banner1.jpg"
                   alt="packer banner"
-                  className="h-full w-full md:object-fill"
+                  className="h-full w-full md:object-cover"
                 />
               </picture>
             </SwiperSlide>
@@ -39,23 +39,10 @@ const Banner = () => {
                 <img
                   src="/images/banner/banner2.jpg"
                   alt="o ring banner"
-                  className="h-full w-full object-center md:object-fill"
+                  className="h-full w-full object-center md:object-cover"
                 />
               </picture>
             </SwiperSlide>
-            {/* <SwiperSlide>
-              <picture className="">
-                <source
-                  media="(max-width:640px)"
-                  srcSet="/images/banner/banner33.jpg"
-                />
-                <img
-                  src="/images/banner/banner3.jpeg"
-                  alt="ball plug valve banner"
-                  className="h-full w-full object-center md:object-fill"
-                />
-              </picture>
-            </SwiperSlide> */}
           </Swiper>
         </div>
       </div>

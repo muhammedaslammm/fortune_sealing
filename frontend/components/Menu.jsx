@@ -20,7 +20,7 @@ const Menu = () => {
           className="w-[10rem] h-[2rem] lg:w-[12.5rem] lg:h-[2.8rem] object-cover -translate-x-[1.5rem]"
         />
         <X
-          className="w-[1.5rem] h-[1.5rem] "
+          className="w-[1.5rem] h-[1.5rem] text-white"
           onClick={() => setMenuStat(false)}
         />
       </div>
@@ -28,7 +28,7 @@ const Menu = () => {
         <nav className="flex flex-col gap-4">
           <Link
             href="/products"
-            className="py-2.5 bg-[#2761ae] active:bg-[#1e5397] px-2"
+            className="py-4 text-center bg-[#2761ae] text-white active:bg-[#1e5397] px-2"
             onClick={() => setMenuStat(false)}
           >
             View Brochure
@@ -38,7 +38,7 @@ const Menu = () => {
               <Link
                 key={i}
                 href={n.path}
-                className="py-2.5 text-[1.1rem] border-b border-neutral-300/50 last:border-0 "
+                className="py-2.5 text-[1.1rem] text-white border-b border-neutral-300/50 last:border-0 "
                 onClick={() => setMenuStat(false)}
               >
                 {n.title}
